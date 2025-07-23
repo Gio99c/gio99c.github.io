@@ -1,0 +1,35 @@
+# Site settings
+title: Giuseppe Concialdi
+description: Machine Learning Engineer focused on LLMs and Generative AI
+email: your.email@example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://gio99c.github.io" # the base hostname & protocol for your site
+
+# Author settings
+author:
+  name: Giuseppe Concialdi
+  description: Machine Learning Engineer
+  links:
+    - label: "GitHub"
+      icon: "github"
+      url: "https://github.com/gio99c"
+    - label: "Twitter"
+      icon: "twitter"
+      url: "https://twitter.com/yourusername"
+    - label: "LinkedIn"
+      icon: "linkedin"
+      url: "https://linkedin.com/in/yourusername"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Minima theme settings
+minima:
+  skin: auto
+
+# SASS settings
+sass:
+  sass_dir: _sass
+  style: compressed
