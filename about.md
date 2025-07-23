@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 
 # About Me
@@ -48,7 +49,7 @@ Through this blog, I aim to share insights from both the research frontier and t
 
 I'm always interested in connecting with fellow researchers, engineers, and anyone passionate about AI. Feel free to reach out:
 
-* **Email**: [giuseppe.concialdi@example.com](mailto:giuseppe.concialdi@gmail.com)
+* **Email**: [giuseppe.concialdi@gmail.com](mailto:giuseppe.concialdi@gmail.com)
 * **GitHub**: [github.com/gio99c](https://github.com/gio99c)
 * **LinkedIn**: [linkedin.com/in/giuseppe-concialdi](https://linkedin.com/in/giuseppe-concialdi)
 

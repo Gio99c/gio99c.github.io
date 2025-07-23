@@ -43,17 +43,9 @@ defaults:
       layout: "post"
       author: Giuseppe Concialdi
 
-# Minima theme settings
-remote_theme: jekyll/minima
-
 # Exclude files
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - LICENSE
-
-# SASS settings
-sass:
-  sass_dir: _sass
-  style: compressed
