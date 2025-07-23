@@ -1,0 +1,84 @@
+# Site settings
+title: Giuseppe Concialdi
+description: Machine Learning Engineer focused on LLMs and Generative AI
+email: your.email@example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://gio99c.github.io" # the base hostname & protocol for your site
+
+# Author settings
+author:
+  name: Giuseppe Concialdi
+  description: Machine Learning Engineer
+  links:
+    - label: "GitHub"
+      icon: "github"
+      url: "https://github.com/gio99c"
+    - label: "Twitter"
+      icon: "twitter"
+      url: "https://twitter.com/yourusername"
+    - label: "LinkedIn"
+      icon: "linkedin"
+      url: "https://linkedin.com/in/yourusername"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor
+
+# Minima theme settings
+minima:
+  skin: auto
+  skin_mode:
+    # Use the dark mode if user's OS setting is `prefers-color-scheme: dark`.
+    # If `null`, the `minima.skin` will be used.
+    # Values can be "dark" or "light"
+    mode: auto
+    # Override automatic skin switching for the default skin ("light" or "dark").
+    # Values can be "light" or "dark"
+    default: light
+  # Show reading time in posts
+  show_reading_time: true
+  # Show post excerpt on home page
+  show_excerpts: true
+  # Show post excerpt in feed
+  show_excerpts_in_feed: true
+
+# Custom variables
+theme_color: "#2D3748"
+accent_color: "#718096"
+background_color: "#F7FAFC"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      categories: blog
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Collections
+collections:
+  blog:
+    output: true
+    permalink: /blog/:path/
+    sort_by: date
+    sort_order: reverse
+
+# SASS settings
+sass:
+  sass_dir: _sass
+  style: compressed
