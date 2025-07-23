@@ -1,9 +1,3 @@
----
-layout: page
-title: About
-permalink: /about/
----
-
 <div class="about">
   <div class="about-header">
     <h1>About Me</h1>
@@ -69,7 +63,7 @@ permalink: /about/
         </div>
         
         <div class="skill-category">
-          <h4>Tools & Platforms</h4>
+          <h4>Tools &amp; Platforms</h4>
           <ul>
             <li>Docker</li>
             <li>AWS/GCP</li>
@@ -104,10 +98,10 @@ permalink: /about/
       <div class="recent-posts">
         <h3>Recent Articles</h3>
         <ul>
-          {% assign recent_posts = site.posts | slice: 0, 5 %}
-          {% for post in recent_posts %}
-            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-          {% endfor %}
+          
+          
+            <li><a href="/blog/llms/deep-learning/nlp/2025/07/23/understanding-transformer-architectures.html">Understanding Transformer Architectures in Modern LLMs</a></li>
+          
         </ul>
       </div>
     </div>
