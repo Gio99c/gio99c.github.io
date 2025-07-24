@@ -1,52 +1,44 @@
 ---
 date: '2025-07-23'
 stories:
-- source: TechCrunch
-  summary: OpenAI has launched GPT-5, featuring advanced multimodal capabilities that
-    integrate text, image, and audio processing, promising to revolutionize AI applications
-    in creative industries and beyond.
-  title: OpenAI Releases GPT-5 with Enhanced Multimodal Capabilities
-  url: https://techcrunch.com/2025/07/23/openai-gpt-5-release
-- source: Wired
-  summary: Google's quantum computing team has developed a new algorithm that significantly
-    speeds up AI model training, potentially reducing energy consumption and costs
-    for large-scale AI deployments.
-  title: Google Achieves Quantum Breakthrough for AI Optimization
-  url: https://www.wired.com/story/google-quantum-ai-optimization
-- source: The Verge
-  summary: NVIDIA and Microsoft have announced a partnership to build a new AI supercomputing
-    platform aimed at accelerating AI research and development, leveraging NVIDIA's
-    GPUs and Microsoft's cloud infrastructure.
-  title: NVIDIA and Microsoft Partner on AI Supercomputing Initiative
-  url: https://www.theverge.com/2025/07/23/nvidia-microsoft-ai-supercomputing
-- source: Bloomberg
-  summary: AI safety and research company Anthropic has raised $500 million in a Series
-    C funding round to expand its research into AI alignment and safety, underscoring
-    investor confidence in ethical AI development.
-  title: Anthropic Secures $500 Million in Series C Funding
-  url: https://www.bloomberg.com/news/articles/2025-07-23/anthropic-series-c-funding
 - source: Reuters
-  summary: Meta has unveiled new AI tools designed to enhance content moderation across
-    its platforms, aiming to improve user safety and reduce harmful content through
-    more accurate and efficient detection.
-  title: Meta Introduces AI-Powered Tools for Content Moderation
-  url: https://www.reuters.com/technology/meta-ai-content-moderation-tools
-- source: Euronews
-  summary: The European Union has proposed new regulations requiring greater transparency
-    in AI systems, including mandatory disclosures of AI model capabilities and limitations,
-    to ensure ethical AI deployment.
-  title: EU Proposes New Regulations for AI Transparency
-  url: https://www.euronews.com/2025/07/23/eu-ai-transparency-regulations
-- source: Forbes
-  summary: IBM has launched a new AI-powered platform for supply chain management,
-    designed to optimize logistics and reduce disruptions by predicting demand and
-    supply chain risks.
-  title: IBM Launches AI-Powered Supply Chain Management Platform
-  url: https://www.forbes.com/sites/ibm-ai-supply-chain-platform
-summary: July 23, 2025, saw significant advancements in AI with the release of OpenAI's
-  new language model, GPT-5, and Google's breakthrough in quantum computing for AI
-  optimization. Additionally, several major tech companies announced strategic partnerships
-  and funding rounds, highlighting the ongoing growth and innovation in the AI sector.
+  summary: The Trump administration introduced a new AI strategy promoting open-source
+    development and international expansion of U.S. AI technologies. The plan includes
+    analyzing Chinese AI models for propaganda alignment and withholding federal funding
+    from states with restrictive AI regulations, aiming to enhance U.S. competitiveness
+    in the global AI landscape.
+  title: White House Unveils AI Policy Plan to Boost U.S. Global Dominance
+  url: https://www.reuters.com/legal/litigation/white-house-unveils-artificial-intelligence-policy-plan-2025-07-23/
+- source: Reuters
+  summary: Taiwan announced the 'Ten Major AI Infrastructure Projects' initiative,
+    targeting over T$15 trillion ($510 billion) in economic value by 2040. Focusing
+    on silicon photonics, quantum technology, and AI robotics, the plan leverages
+    Taiwan's strengths in ICT and semiconductors to position itself as a global AI
+    leader.
+  title: Taiwan Launches AI Projects to Boost Economy by $510 Billion
+  url: https://www.reuters.com/world/asia-pacific/taiwan-plans-ai-projects-boost-economy-by-510-billion-2025-07-23/
+- source: Reuters
+  summary: South Korea's SK Hynix reported a record quarterly operating profit of
+    9.2 trillion won ($6.69 billion), driven by strong demand for advanced chips used
+    in generative AI applications. The company plans to double its high-bandwidth
+    memory (HBM) chip sales in 2025, solidifying its position as a leading memory
+    chip maker.
+  title: SK Hynix Reports Record Profit, Plans to Double High-End AI Chip Sales
+  url: https://www.reuters.com/world/asia-pacific/nvidia-supplier-sk-hynix-says-track-double-high-end-ai-chip-sales-2025-07-23/
+- source: Reuters
+  summary: Amazon is shutting down its AI research lab in Shanghai, a move seen as
+    part of broader strategic adjustments amid escalating U.S.-China tensions. The
+    closure reflects the company's focus on AI technologies and global workforce reductions.
+  title: Amazon Closes Shanghai AI Research Lab Amid U.S.-China Tensions
+  url: https://www.reuters.com/business/retail-consumer/amazon-shuts-down-shanghai-ai-research-lab-ft-says-2025-07-23/
+- source: Reuters
+  summary: The U.S. economy has avoided recession, largely due to a surge in AI investments.
+    AI-related capital expenditures, including data centers and chips, have significantly
+    contributed to GDP growth, marking a 're-industrialization' of corporate America.
+  title: U.S. Economy Defies Recession Expectations, Driven by AI Investments
+  url: https://www.reuters.com/markets/us/ai-gravity-defying-us-gdp-2025-07-23/
+summary: Today's AI and tech developments highlight significant policy shifts, major
+  corporate moves, and substantial investments shaping the industry's future.
 ---
 
-<!-- Generated 2025-07-23 21:43 UTC -->
+<!-- Generated with OpenAI web search 2025-07-23 22:29 UTC -->

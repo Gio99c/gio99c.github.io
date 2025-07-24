@@ -8,7 +8,7 @@ permalink: /ai-news/
 
 Daily digest of what's happening in AI and tech.
 
-> **How this works**: GPT-4.1 searches the web each morning and picks the stories that matter to practitioners. All summaries link to original sources.
+> **How this works**: OpenAI searches the web each morning and curates stories that matter to practitioners. Real sources, real URLs, no hallucinations.
 
 ---
 
@@ -50,11 +50,11 @@ Daily digest of what's happening in AI and tech.
 
 ## About
 
-This pulls the most important AI and tech news each day. Focus is on:
+OpenAI searches the web daily for what actually matters to AI practitioners:
 
-- Research breakthroughs that practitioners should know
-- Product launches and company announcements  
-- Industry developments and policy changes
-- Technical advances with real-world impact
+- Research breakthroughs with real impact
+- Product launches people will use
+- Industry changes that affect how we work  
+- Technical advances with practical applications
 
-The AI skips fluff and focuses on what's useful. Each story includes context on why it matters.
+Philosophy: Signal over noise. Most "breakthrough" claims don't pan out. Focus on substance over hype.

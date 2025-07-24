@@ -1,109 +1,42 @@
-# Giuseppe Concialdi - Personal Website
+# Giuseppe Concialdi
 
-[![Build Status](https://github.com/gio99c/gio99c.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/gio99c/gio99c.github.io/actions/workflows/jekyll.yml)
+Welcome to my personal website repository. I'm a Machine Learning Engineer specializing in Large Language Models and Generative AI.
 
-This is the source code for my personal website and blog, built with Jekyll and hosted on GitHub Pages.
+## About This Site
 
-## Features
+This is where I share insights about AI research, practical applications, and the latest developments in machine learning. Built with Jekyll and hosted on GitHub Pages.
 
-- Clean, minimal design focused on content
-- Responsive layout that works on all devices
-- Blog with syntax highlighting for code snippets
-- Dark/light mode based on system preferences
-- Fast loading and optimized for performance
+## What You'll Find Here
 
-## Local Development
+**[Writing](/writing/)** - Technical posts about AI, LLMs, and generative AI applications
 
-### Prerequisites
+**[AI News](/ai-news/)** - Daily digest of what's actually happening in AI and tech, curated using OpenAI with real web search
 
-- Ruby 2.5.0 or higher
-- RubyGems
-- GCC and Make
-- Jekyll (see installation instructions below)
+**[About](/about/)** - More about my background and current work
 
-### Installation
+## AI News System
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/gio99c/gio99c.github.io.git
-   cd gio99c.github.io
-   ```
+This site features an automated AI news curation system that:
+- Uses OpenAI's Responses API with web search to find real, current AI news
+- Applies thoughtful curation focused on what matters to practitioners  
+- Runs daily at 9 AM UTC via GitHub Actions
+- Follows Eugene Yan's approach: signal over noise, substance over hype
 
-2. Install Jekyll and bundler gems:
-   ```bash
-   gem install jekyll bundler
-   ```
+The system is designed to cut through AI marketing noise and focus on developments that actually matter to people building AI systems.
 
-3. Install dependencies:
-   ```bash
-   bundle install
-   ```
+## Technical Stack
 
-### Running Locally
+- **Jekyll** - Static site generator
+- **GitHub Pages** - Hosting and deployment
+- **OpenAI Responses API** - AI news curation with real web search
+- **GitHub Actions** - Daily automation
 
-1. Start the Jekyll server:
-   ```bash
-   bundle exec jekyll serve
-   ```
+## Connect
 
-2. Open your browser to `http://localhost:4000`
+- [GitHub](https://github.com/gio99c)
+- [LinkedIn](https://linkedin.com/in/giuseppe-concialdi)
+- [Email](mailto:giuseppe.concialdi@gmail.com)
 
-## Adding New Content
-
-### Blog Posts
-
-Create a new markdown file in the `_posts` directory with the following naming convention:
-
-```
-_posts/YYYY-MM-DD-title-of-post.md
-```
-
-Each post should start with front matter like this:
-
-```yaml
 ---
-layout: post
-title: "Your Post Title"
-date: YYYY-MM-DD HH:MM:SS +0000
-categories: [category1, category2]
-tags: [tag1, tag2, tag3]
----
-```
 
-### Pages
-
-Create a new markdown file in the root directory with front matter like this:
-
-```yaml
----
-layout: page
-title: "Page Title"
-permalink: /page-url/
----
-```
-
-## Customization
-
-### Theme Colors
-
-Edit the color variables in `_sass/minima/_custom-styles.scss` to change the color scheme.
-
-### Layouts
-
-Customize layouts in the `_layouts` directory.
-
-## Deployment
-
-This site is automatically deployed to GitHub Pages when changes are pushed to the `main` branch.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Acknowledgements
-
-- [Jekyll](https://jekyllrb.com/)
-- [Minima](https://github.com/jekyll/minima)
-- [Font Awesome](https://fontawesome.com/)
-# gio99c.github.io
-# gio99c.github.io
+*This repository contains the source code for [giuseppeconcialdi.com](https://giuseppeconcialdi.com). The AI news system runs autonomously and is designed to provide real, curated content rather than generated summaries.*
