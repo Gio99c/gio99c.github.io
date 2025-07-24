@@ -20,7 +20,7 @@ This site features an automated AI news curation system that:
 - Uses OpenAI's Responses API with web search to find real, current AI news
 - Applies thoughtful curation focused on what matters to practitioners  
 - Runs daily at 9 AM UTC via GitHub Actions
-- Follows Eugene Yan's approach: signal over noise, substance over hype
+- Focuses on signal over noise, substance over hype
 
 The system is designed to cut through AI marketing noise and focus on developments that actually matter to people building AI systems.
 
