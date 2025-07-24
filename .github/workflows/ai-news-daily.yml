@@ -2,7 +2,7 @@ name: Daily AI News
 
 on:
   schedule:
-    - cron: '15 13 * * *'  # 9:15 AM EST daily
+    - cron: '00 13 * * *'  # 9:00 AM EST daily
   workflow_dispatch:
     inputs:
       date:
@@ -87,4 +87,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
