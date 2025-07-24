@@ -2,7 +2,7 @@ name: Daily AI News
 
 on:
   schedule:
-    - cron: '0 9 * * *'  # 9 AM UTC daily
+    - cron: '5 13 * * *'  # 9 AM UTC daily
   workflow_dispatch:
     inputs:
       date:
@@ -75,7 +75,7 @@ jobs:
     
     - name: Upload Pages artifact
       if: success()
-      uses: actions/upload-pages-artifact@v2
+      uses: actions/upload-pages-artifact@v4
 
   deploy:
     if: success()
