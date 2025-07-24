@@ -17,6 +17,8 @@ navigation:
     url: /
   - title: Writing
     url: /writing/
+  - title: AI News
+    url: /ai-news/
   - title: About
     url: /about/
 
@@ -33,6 +35,9 @@ collections:
   posts:
     output: true
     permalink: /:title/
+  ai_news:
+    output: true
+    permalink: /ai-news/:name/
 
 # Defaults
 defaults:
@@ -42,6 +47,12 @@ defaults:
     values:
       layout: "post"
       author: Giuseppe Concialdi
+  - scope:
+      path: ""
+      type: "ai_news"
+    values:
+      layout: "ai_news"
+      author: AI News Bot
 
 # Exclude files
 exclude:

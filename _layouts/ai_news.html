@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<article class="ai-news-digest">
+  <header class="digest-header">
+    <h1>{{ page.date | date: "%B %d, %Y" }}</h1>
+    <div class="digest-meta">
+      <span class="auto-generated">🤖 AI-curated</span>
+      <span class="story-count">{{ page.stories | size }} stories</span>
+    </div>
+  </header>
+
+  <div class="digest-summary">
+    <h2>What happened</h2>
+    {{ page.summary | markdownify }}
+  </div>
+
+  <div class="news-stories">
+    <h2>Stories</h2>
+    {% for story in page.stories %}
+    <div class="news-story">
+      <h3>{{ story.title }}</h3>
+      <div class="story-summary">{{ story.summary }}</div>
+      <div class="story-source">
+        <a href="{{ story.url }}" target="_blank" rel="noopener">Read more →</a>
+        <span class="source-name">{{ story.source }}</span>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <footer class="digest-footer">
+    <p><small>
+      Daily digest using GPT-4.1 web search. Links go to original sources.
+    </small></p>
+    
+    <div class="digest-navigation">
+      {% assign all_news = site.ai_news | sort: 'date' %}
+      {% assign current_index = all_news | map: 'date' | index: page.date %}
+      
+      {% if current_index > 0 %}
+        {% assign prev_news = all_news[current_index | minus: 1] %}
+        <a href="{{ prev_news.url | relative_url }}" class="nav-prev">← {{ prev_news.date | date: "%b %d" }}</a>
+      {% endif %}
+      
+      {% assign next_index = current_index | plus: 1 %}
+      {% if next_index < all_news.size %}
+        {% assign next_news = all_news[next_index] %}
+        <a href="{{ next_news.url | relative_url }}" class="nav-next">{{ next_news.date | date: "%b %d" }} →</a>
+      {% endif %}
+    </div>
+  </footer>
+</article>
