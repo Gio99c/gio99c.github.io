@@ -4,7 +4,7 @@ layout: default
 
 <article class="ai-news-digest">
   <header class="digest-header">
-    <h1>{{ page.date | date: "%B %d, %Y" }}</h1>
+    <h1>AI News Digest - {{ page.date | date: "%B %d, %Y" }}</h1>
     <div class="digest-meta">
       <span class="auto-generated">🤖 AI-curated</span>
       <span class="story-count">{{ page.stories | size }} stories</span>
@@ -37,10 +37,17 @@ layout: default
     
     <div class="digest-navigation">
       {% assign all_news = site.ai_news | sort: 'date' %}
-      {% assign current_index = all_news | map: 'date' | index: page.date %}
+      {% assign current_index = 0 %}
+      {% for news in all_news %}
+        {% if news.date == page.date %}
+          {% assign current_index = forloop.index0 %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
       
       {% if current_index > 0 %}
-        {% assign prev_news = all_news[current_index | minus: 1] %}
+        {% assign prev_index = current_index | minus: 1 %}
+        {% assign prev_news = all_news[prev_index] %}
         <a href="{{ prev_news.url | relative_url }}" class="nav-prev">← {{ prev_news.date | date: "%b %d" }}</a>
       {% endif %}
       

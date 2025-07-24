@@ -1,4 +1,5 @@
 ---
+title: 'AI News Digest - July 23, 2025'
 date: '2025-07-23'
 stories:
 - source: Reuters
