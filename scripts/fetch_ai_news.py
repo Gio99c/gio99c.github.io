@@ -20,6 +20,7 @@ class AINewsFetcher:
     def fetch_news(self, date: str) -> dict:
         """Search for AI news and create a digest."""
         
+        # Use the provided date
         date_obj = datetime.strptime(date, '%Y-%m-%d')
         readable_date = date_obj.strftime('%B %d, %Y')
         
@@ -59,37 +60,17 @@ Focus on 6-8 stories that AI/ML practitioners would find useful. Skip fluff piec
                     'Content-Type': 'application/json',
                 },
                 json={
-                    'model': 'gpt-4.1',  # Latest model as of 2025
+                    'model': 'gpt-4o',  # Use available model
                     'messages': [
                         {
                             'role': 'system',
-                            'content': 'You are a tech news curator. Search the web for current AI news. Be concise and practical. Focus on what matters to practitioners.'
+                            'content': 'You are a tech news curator. You have access to current information. Be concise and practical. Focus on what matters to AI/ML practitioners. Always return valid JSON.'
                         },
                         {
                             'role': 'user',
                             'content': prompt
                         }
                     ],
-                    'tools': [
-                        {
-                            'type': 'function',
-                            'function': {
-                                'name': 'web_search',
-                                'description': 'Search web for current information',
-                                'parameters': {
-                                    'type': 'object',
-                                    'properties': {
-                                        'query': {
-                                            'type': 'string',
-                                            'description': 'Search query'
-                                        }
-                                    },
-                                    'required': ['query']
-                                }
-                            }
-                        }
-                    ],
-                    'tool_choice': 'auto',
                     'temperature': 0.2,
                     'max_tokens': 2000
                 },
@@ -100,10 +81,17 @@ Focus on 6-8 stories that AI/ML practitioners would find useful. Skip fluff piec
             result = response.json()
             
             content = result['choices'][0]['message'].get('content', '')
+            
             if not content:
                 return self._fallback_response(date)
             
             try:
+                # Clean up markdown code blocks if present
+                if content.startswith('```json'):
+                    content = content.replace('```json\n', '').replace('\n```', '')
+                elif content.startswith('```'):
+                    content = content.replace('```\n', '').replace('\n```', '')
+                
                 news_data = json.loads(content)
                 if 'summary' not in news_data or 'stories' not in news_data:
                     return self._fallback_response(date)
@@ -167,7 +155,7 @@ Focus on 6-8 stories that AI/ML practitioners would find useful. Skip fluff piec
 def main():
     parser = argparse.ArgumentParser(description='Fetch daily AI news')
     parser.add_argument('--date', help='Date (YYYY-MM-DD)', 
-                       default=(datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d'))
+                       default=datetime.now().strftime('%Y-%m-%d'))
     args = parser.parse_args()
     
     print(f"🔍 Fetching AI news for {args.date}")
