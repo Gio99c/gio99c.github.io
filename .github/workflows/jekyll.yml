@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - '_ai_news/**'
+      - '.github/workflows/ai-news-daily.yml'
 
 jobs:
   build_and_deploy:
