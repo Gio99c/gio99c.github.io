@@ -6,13 +6,14 @@ Using OpenAI Responses API with real web search for accurate, cited results.
 
 import os
 import json
-import requests
-from datetime import datetime
+import time
+from datetime import datetime, timedelta
 import argparse
 import yaml
-from urllib.parse import urlparse
-import time
 from openai import OpenAI
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class AINewsFetcher:
     def __init__(self):
@@ -20,70 +21,6 @@ class AINewsFetcher:
         if not self.openai_api_key:
             raise ValueError("OPENAI_API_KEY required - get one from platform.openai.com")
         self.client = OpenAI(api_key=self.openai_api_key)
-    
-    def verify_url_accessible(self, url: str) -> bool:
-        """Verify that a URL is accessible and returns a valid response."""
-        try:
-            response = requests.head(url, timeout=10, allow_redirects=True)
-            return response.status_code == 200
-        except:
-            try:
-                # Fallback to GET request if HEAD fails
-                response = requests.get(url, timeout=10, allow_redirects=True)
-                return response.status_code == 200
-            except:
-                return False
-    
-    def extract_domain(self, url: str) -> str:
-        """Extract domain from URL for source verification."""
-        try:
-            parsed = urlparse(url)
-            domain = parsed.netloc.lower()
-            if domain.startswith('www.'):
-                domain = domain[4:]
-            return domain
-        except:
-            return ""
-    
-    def verify_source_matches_domain(self, claimed_source: str, url: str) -> bool:
-        """Verify that the claimed source matches the URL domain."""
-        domain = self.extract_domain(url)
-        if not domain:
-            return False
-        
-        claimed_lower = claimed_source.lower()
-        
-        # Common source-to-domain mappings
-        source_mappings = {
-            'techcrunch': 'techcrunch.com',
-            'the verge': 'theverge.com',
-            'verge': 'theverge.com',
-            'reuters': 'reuters.com',
-            'bloomberg': 'bloomberg.com',
-            'wired': 'wired.com',
-            'ars technica': 'arstechnica.com',
-            'venturebeat': 'venturebeat.com',
-            'engadget': 'engadget.com',
-            'openai': 'openai.com',
-            'anthropic': 'anthropic.com',
-            'google': 'blog.google',
-            'microsoft': 'blogs.microsoft.com',
-            'meta': 'ai.meta.com',
-            'arxiv': 'arxiv.org',
-            'nature': 'nature.com',
-            'science': 'science.org',
-            'mit technology review': 'technologyreview.com',
-            'ai news': 'artificialintelligence-news.com'
-        }
-        
-        # Check if claimed source matches domain
-        expected_domain = source_mappings.get(claimed_lower)
-        if expected_domain:
-            return expected_domain in domain
-        
-        # Fallback: check if source name appears in domain
-        source_words = claimed_lower.replace(' ', '').replace('-', '')
-        return source_words in domain.replace('.', '').replace('-', '')
     
     def fetch_news(self, date: str) -> dict:
         """Use OpenAI Responses API with web search to find real AI news."""
@@ -95,199 +32,266 @@ class AINewsFetcher:
         try:
             print(f"🌐 OpenAI searching the web for AI news from {readable_date}...")
             
-            # Use OpenAI Responses API with web search tool
-            response = self.client.responses.create(
-                model="gpt-4o",
-                tools=[
-                    {
-                        "type": "web_search_preview"
-                    }
-                ],
-                input=f"""Search the web for CURRENT AI and technology news from {readable_date} ({day_name}).
+            # Get recent stories to avoid duplicates
+            recent_stories = self._get_recent_stories(7)
+            recent_stories_text = ""
+            if recent_stories:
+                recent_stories_text = "\n\nRECENTLY COVERED STORIES (avoid these):\n"
+                for story in recent_stories[-10:]:  # Last 10 to keep it manageable
+                    recent_stories_text += f"- {story['title']} ({story['source']})\n"
+            
+            # Define 4 focused categories
+            categories = [
+                {
+                    "name": "Product Launches & Company News",
+                    "search_focus": "AI product launches, company announcements, new AI tools and apps, startup news, major tech company updates",
+                    "examples": "New AI and generative AI models, startup funding, new AI applications",
+                    "freshness": "prioritize articles published TODAY or within the last 24 hours"
+                },
+                {
+                    "name": "Research & Academic Developments", 
+                    "search_focus": "AI new research papers, arXiv preprints, conference presentations (e.g. NeurIPS, CVPR), and breakthroughs in AI models, training methods, or evaluation",
+                    "examples": "research breakthroughs, transformer model advancements, multimodal papers, new benchmarks, interpretability tools, peer-reviewed research",
+                    "freshness": "include recent papers, conference announcements, and arXiv preprints from the past week"
+                },
+                {
+                    "name": "Business & Industry Trends",
+                    "search_focus": "Funding rounds, mergers, acquisitions, layoffs, regulatory filings, major hires or leadership changes in AI companies",
+                    "examples": "Series A/B/C funding for AI startups, acquisitions by Big Tech, layoffs at AI firms, IPO rumors, executive moves",
+                    "freshness": "focus on announcements from the last 24-48 hours"
+                },
+                {
+                    "name": "Useful Tools & Apps",
+                    "search_focus": "AI tools, apps, courses, tutorials, useful tech tools, useful apps, courses or resources to learn AI and coding",
+                    "examples": "AI tools, apps, courses, tutorials, useful tech tools, useful apps",
+                    "freshness": "include recent releases and updates from the past few days"
+                }
+            ]
+            
+            all_stories = []
+            
+            # Make 4 focused calls
+            for i, category in enumerate(categories, 1):
+                print(f"🔍 Category {i}/4: {category['name']}")
+                
+                try:
+                    response = self.client.responses.create(
+                        model="gpt-4o",
+                        tools=[{"type": "web_search_preview"}],
+                        input=f"""
+Search the web for CURRENT AI and technology news from {readable_date} ({day_name}).
+FOCUS: {category['name']}
+Search specifically for: {category['search_focus']}
+Examples: {category['examples']}
 
-CRITICAL REQUIREMENTS:
-- Search ONLY legitimate news websites: TechCrunch, The Verge, Ars Technica, Reuters, Bloomberg, Wired, VentureBeat, Engadget, MIT Technology Review, etc.
-- Find articles published TODAY ({readable_date}) or within the last 24-48 hours
-- EXCLUDE Wikipedia, LinkedIn posts, personal blogs, arXiv papers
-- Focus on BREAKING NEWS and recent announcements
+FRESHNESS REQUIREMENTS:
+- {category['freshness']}
+- Focus on fresh, relevant developments rather than strict time limits
 
-Search specifically for:
-- Company product launches and announcements  
-- Funding rounds and acquisitions announced today
-- AI model releases and updates
-- Industry partnerships announced recently
-- Policy/regulatory news from government sources
-- Earnings reports and business developments
+CONTENT REQUIREMENTS:
+- Find 1-2 high-quality stories in this specific category
+- Focus on {category['search_focus']}
+- CRITICAL: Ensure source diversity - avoid getting stories from the same publication
+- Each story should come from a different publication when possible
+- Focus on quality and accuracy over quantity
+- AVOID DUPLICATES: Do not include stories similar to recently covered ones
 
-Return a JSON response in TLDR newsletter style:
+{recent_stories_text}
+
+Return a JSON response with 1-2 stories:
 
 {{
-    "summary": "Today's key AI/tech developments in 1-2 sentences - what practitioners need to know",
     "stories": [
         {{
-            "title": "Concise headline focused on the key development",
-            "summary": "TLDR-style: What happened, why it matters, impact on the industry. Keep it practical and skip the fluff.",
-            "url": "Direct URL to the actual news article from a legitimate publication",
-            "source": "Publication name (TechCrunch, Reuters, etc.)",
-            "publication_date": "Actual publication date from the article"
+            "title": "Concise headline, catchy and engaging",
+            "summary": "What happened, why it matters, impact on the industry, interesting, captivating, and engaging",
+            "url": "Direct URL to the news article",
+            "source": "Publication name",
+            "publication_date": "Publication date",
+            "category": "{category['name']}"
         }}
     ]
 }}
 
-QUALITY FILTERS:
-- Only include URLs from established tech/business news sites
-- Skip Wikipedia, LinkedIn, personal blogs, academic papers
-- Prioritize breaking news from {readable_date}
-- If no news from today, search for "AI news last 24 hours" or "AI news this week"
-- Write summaries like TLDR newsletter: direct, practical, no marketing speak
-
-Search now for current AI/tech news from legitimate sources."""
-            )
+IMPORTANT: 
+- Include stories from diverse sources: TechCrunch, The Verge, Ars Technica, Bloomberg, Wired, VentureBeat, Engadget, MIT Technology Review, CNBC, WSJ, and other reputable sources in English
+- NO wikipedia articles as sources
+- Avoid getting stories from the same publication
+- ONLY include real articles with actual URLs - never make up or hallucinate content
+- If you can't find good stories in this category, return an empty stories array
+- Make sure the stories are different from recently covered ones"""
+                    )
+                    
+                    # Extract the response content
+                    response_content = ""
+                    for output_item in response.output:
+                        if hasattr(output_item, 'content') and output_item.type == 'message':
+                            for content_item in output_item.content:
+                                if hasattr(content_item, 'text'):
+                                    response_content += content_item.text
+                    
+                    if response_content:
+                        try:
+                            # Extract JSON
+                            if '```json' in response_content:
+                                json_start = response_content.find('```json') + 7
+                                json_end = response_content.find('```', json_start)
+                                json_content = response_content[json_start:json_end].strip()
+                            elif '{' in response_content and '}' in response_content:
+                                json_start = response_content.find('{')
+                                json_end = response_content.rfind('}') + 1
+                                json_content = response_content[json_start:json_end]
+                            else:
+                                print(f"   ⚠️  No JSON found in response for category {i}")
+                                continue
+                            
+                            category_data = json.loads(json_content)
+                            if 'stories' in category_data:
+                                stories_count = len(category_data['stories'])
+                                all_stories.extend(category_data['stories'])
+                                print(f"   ✅ Found {stories_count} stories")
+                                if stories_count == 0:
+                                    print(f"   ℹ️  Category {category['name']} returned empty stories array")
+                            else:
+                                print(f"   ⚠️  No 'stories' key found in response for category {i}")
+                                
+                        except json.JSONDecodeError as e:
+                            print(f"   ❌ JSON parsing error in category {i}: {e}")
+                            print(f"   Response preview: {response_content[:200]}...")
+                            continue
+                    else:
+                        print(f"   ❌ No response content for category {i}")
+                        
+                except Exception as e:
+                    print(f"   ❌ API error for category {i}: {e}")
+                    continue
+                
+                # Small delay between calls
+                time.sleep(1)
             
-            # DEBUG: Log the full OpenAI API response
-            print("🔍 DEBUG: Full OpenAI API response:")
-            print(response)
-            print("=" * 80)
-            
-            print("🔍 Processing OpenAI response with web search citations...")
-            
-            # Extract the response content from Responses API format
-            # Look for the message content in the output
-            response_content = ""
-            for output_item in response.output:
-                if hasattr(output_item, 'content') and output_item.type == 'message':
-                    for content_item in output_item.content:
-                        if hasattr(content_item, 'text'):
-                            response_content += content_item.text
-            
-            # DEBUG: Log the extracted content
-            print("🔍 DEBUG: Extracted content from OpenAI:")
-            print(f"Content: {response_content}")
-            print("=" * 80)
-            
-            if not response_content:
-                print("❌ No content returned from OpenAI")
+            if len(all_stories) == 0:
+                print("❌ No stories found across all categories")
                 return self._fallback_response(date)
             
-            print("🔍 Processing and validating results...")
+            # Generate engaging summary from the stories
+            summary = self._generate_summary(all_stories, readable_date)
             
-            # Extract JSON from OpenAI response
-            try:
-                if '```json' in response_content:
-                    json_start = response_content.find('```json') + 7
-                    json_end = response_content.find('```', json_start)
-                    json_content = response_content[json_start:json_end].strip()
-                elif '{' in response_content and '}' in response_content:
-                    json_start = response_content.find('{')
-                    json_end = response_content.rfind('}') + 1
-                    json_content = response_content[json_start:json_end]
-                else:
-                    print("❌ No JSON found in OpenAI response")
-                    return self._fallback_response(date)
-                
-                news_data = json.loads(json_content)
-                
-                if 'summary' not in news_data or 'stories' not in news_data:
-                    print("❌ Invalid JSON structure from OpenAI")
-                    return self._fallback_response(date)
-                
-                # Practical validation - focus on basic quality checks
-                validated_stories = []
-                for i, story in enumerate(news_data.get('stories', []), 1):
-                    print(f"📋 Checking story {i}: {story.get('title', 'Untitled')[:60]}...")
-                    
-                    url = story.get('url', '')
-                    source = story.get('source', '')
-                    title = story.get('title', '')
-                    summary = story.get('summary', '')
-                    
-                    # Basic validation checks
-                    issues = []
-                    
-                    # 1. Check URL format
-                    if not url or url == '#' or 'http' not in url or len(url) < 15:
-                        issues.append("Invalid URL")
-                    
-                    # 2. Filter out non-news sources
-                    domain = self.extract_domain(url)
-                    excluded_domains = [
-                        'wikipedia.org', 'linkedin.com', 'arxiv.org', 'github.com',
-                        'reddit.com', 'twitter.com', 'x.com', 'medium.com',
-                        'substack.com', 'blogspot.com', 'wordpress.com'
-                    ]
-                    
-                    if any(excluded in domain for excluded in excluded_domains):
-                        issues.append(f"Excluded source domain: {domain}")
-                    
-                    # 3. Check for legitimate news sources
-                    legitimate_domains = [
-                        'techcrunch.com', 'theverge.com', 'arstechnica.com', 'reuters.com',
-                        'bloomberg.com', 'wired.com', 'venturebeat.com', 'engadget.com',
-                        'technologyreview.com', 'cnbc.com', 'wsj.com', 'ft.com',
-                        'bbc.com', 'cnn.com', 'axios.com', 'theinformation.com',
-                        'semafor.com', 'artificialintelligence-news.com'
-                    ]
-                    
-                    if not any(legit in domain for legit in legitimate_domains):
-                        print(f"   ⚠️  Non-standard news source: {domain}")
-                        # Don't reject, just warn
-                    
-                    # 4. Check if we have basic content
-                    if not title or len(title) < 10:
-                        issues.append("Missing/short title")
-                    
-                    if not summary or len(summary) < 20:
-                        issues.append("Missing/short summary")
-                    
-                    if not source:
-                        issues.append("Missing source")
-                    
-                    # 5. Try to verify URL is accessible (but don't fail on this)
-                    url_accessible = self.verify_url_accessible(url) if url and 'http' in url else False
-                    
-                    # 6. Check source-domain matching (but allow some flexibility)
-                    source_matches = self.verify_source_matches_domain(source, url) if url and source else False
-                    
-                    # Decision logic - be more lenient
-                    if len(issues) > 2:
-                        print(f"   ❌ Too many issues: {', '.join(issues)}")
-                        continue
-                    
-                    if not url_accessible:
-                        print(f"   ⚠️  URL may not be accessible: {url}")
-                        # Don't reject - just warn
-                    
-                    if not source_matches and source.lower() != 'unknown':
-                        print(f"   ⚠️  Source '{source}' may not match domain: {self.extract_domain(url)}")
-                        # Don't reject - just warn
-                    
-                    # Accept the story if it passes basic checks
-                    print(f"   ✅ Story accepted")
-                    validated_stories.append(story)
-                    
-                    # Small delay
-                    time.sleep(0.2)
-                
-                if len(validated_stories) == 0:
-                    print("❌ No stories passed basic validation")
-                    return self._fallback_response(date)
-                
-                print(f"✅ {len(validated_stories)} stories validated and ready")
-                
-                news_data['stories'] = validated_stories
-                return news_data
-                
-            except json.JSONDecodeError as e:
-                print(f"❌ JSON parsing error: {e}")
-                print(f"Content preview: {response_content[:200]}...")
-                return self._fallback_response(date)
+            # Save stories to tracking file
+            self._save_story_tracking(all_stories, date)
+            
+            print(f"✅ Total: {len(all_stories)} stories from {len(set(story.get('source', '') for story in all_stories))} different sources")
+            
+            return {
+                "summary": summary,
+                "stories": all_stories
+            }
                 
         except Exception as e:
-            if "openai" in str(type(e)).lower():
-                print(f"❌ OpenAI API error: {e}")
-            else:
-                print(f"❌ Unexpected error: {e}")
+            print(f"❌ Error: {e}")
             return self._fallback_response(date)
+    
+    def _generate_summary(self, stories: list, date: str) -> str:
+        """Generate an engaging summary from the fetched stories."""
+        try:
+            print("📝 Generating engaging summary...")
+            
+            # Prepare stories for summary generation
+            stories_text = ""
+            for i, story in enumerate(stories, 1):
+                stories_text += f"{i}. {story.get('title', '')} ({story.get('source', '')})\n"
+                stories_text += f"   {story.get('summary', '')}\n\n"
+            
+            response = self.client.chat.completions.create(
+                model="gpt-4o",
+                messages=[
+                    {
+                        "role": "system",
+                        "content": """You're writing a daily AI news digest. Keep it:
+                        - Chill and natural, not overly enthusiastic or corporate
+                        - Interesting and informative without being cringy
+                        - Focus on what's actually cool or important
+                        - Connect dots between stories when it makes sense
+                        - Keep it to 2-3 sentences
+                        - Sound like a knowledgeable friend sharing interesting tech news"""
+                    },
+                    {
+                        "role": "user",
+                        "content": f"""Based on these AI and tech stories from {date}, write a chill 2-3 sentence summary:
+
+{stories_text}
+
+Write something interesting and natural, not overly hyped."""
+                    }
+                ],
+                max_tokens=150,
+                temperature=0.7
+            )
+            
+            summary = response.choices[0].message.content.strip()
+            print(f"   ✅ Summary generated: {summary}")
+            return summary
+            
+        except Exception as e:
+            print(f"   ❌ Summary generation failed: {e}")
+            # Fallback to simple summary
+            return f"Today's AI news covers {len(stories)} key developments across different areas."
+    
+    def _get_recent_stories(self, days_back: int = 7) -> list:
+        """Get stories from the last N days to avoid duplicates."""
+        recent_stories = []
+        try:
+            # Check if tracking file exists
+            if os.path.exists("_ai_news/story_tracking.json"):
+                with open("_ai_news/story_tracking.json", 'r', encoding='utf-8') as f:
+                    tracking_data = json.load(f)
+                
+                cutoff_date = (datetime.now() - timedelta(days=days_back)).strftime('%Y-%m-%d')
+                
+                for entry in tracking_data:
+                    if entry.get('date', '') >= cutoff_date:
+                        recent_stories.append({
+                            'title': entry.get('title', ''),
+                            'source': entry.get('source', '')
+                        })
+                
+                print(f"📋 Found {len(recent_stories)} recent stories to avoid duplicates")
+                
+        except Exception as e:
+            print(f"⚠️  Could not load recent stories: {e}")
+        
+        return recent_stories
+    
+    def _save_story_tracking(self, stories: list, date: str):
+        """Save stories to tracking file for future duplicate detection."""
+        try:
+            os.makedirs("_ai_news", exist_ok=True)
+            
+            # Load existing tracking data
+            tracking_data = []
+            if os.path.exists("_ai_news/story_tracking.json"):
+                with open("_ai_news/story_tracking.json", 'r', encoding='utf-8') as f:
+                    tracking_data = json.load(f)
+            
+            # Add new stories
+            for story in stories:
+                tracking_data.append({
+                    'date': date,
+                    'title': story.get('title', ''),
+                    'source': story.get('source', '')
+                })
+            
+            # Keep only last 30 days of data to manage file size
+            cutoff_date = (datetime.now() - timedelta(days=30)).strftime('%Y-%m-%d')
+            tracking_data = [entry for entry in tracking_data if entry.get('date', '') >= cutoff_date]
+            
+            # Save updated tracking data
+            with open("_ai_news/story_tracking.json", 'w', encoding='utf-8') as f:
+                json.dump(tracking_data, f, indent=2, ensure_ascii=False)
+            
+            print(f"💾 Saved {len(stories)} stories to tracking file")
+            
+        except Exception as e:
+            print(f"⚠️  Could not save story tracking: {e}")
     
     def _fallback_response(self, date: str) -> dict:
         """Fallback when OpenAI web search fails."""
