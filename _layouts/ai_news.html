@@ -4,15 +4,22 @@ layout: default
 
 <article class="ai-news-digest">
   <header class="digest-header">
-    <h1>AI News Digest - {{ page.date | date: "%B %d, %Y" }}</h1>
-    <div class="digest-meta">
-      <span class="auto-generated">🤖 AI-curated</span>
-      <span class="story-count">{{ page.stories | size }} stories</span>
+    <div class="digest-date-badge">
+      <span class="date-day">{{ page.date | date: "%d" }}</span>
+      <span class="date-month">{{ page.date | date: "%b" }}</span>
+      <span class="date-year">{{ page.date | date: "%Y" }}</span>
+    </div>
+    <div class="digest-title-section">
+      <h1>AI News Digest</h1>
+      <div class="digest-meta">
+        <span class="auto-generated">🤖 AI-curated</span>
+        <span class="story-count">{{ page.stories | size }} stories</span>
+      </div>
     </div>
   </header>
 
   <div class="digest-summary">
-    <h2>What happened</h2>
+    <h2>Today's Summary</h2>
     {{ page.summary | markdownify }}
   </div>
 
