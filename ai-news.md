@@ -41,7 +41,7 @@ Daily digest of what's happening in AI and tech.
         <span class="article-separator" style="color: #e5e5e5; margin: 0 1rem; font-weight: 300; font-size: 0.8rem;">•</span>
         <span class="article-count" style="font-style: italic; background: #fafafa; padding: 0.25rem 0.5rem; border-radius: 4px; border: 1px solid #e5e5e5;">{{ news.stories | size }} stories</span>
       </div>
-      <h3 style="margin: 0; font-size: 1.1rem; line-height: 1.4; color: #1a1a1a;">{{ news.summary | truncate: 80 }}</h3>
+      <h3 style="margin: 0; font-size: 1.1rem; line-height: 1.4; color: #1a1a1a; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">{{ news.summary }}</h3>
     </div>
   </a>
 </div>

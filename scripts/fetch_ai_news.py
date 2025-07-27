@@ -212,7 +212,8 @@ IMPORTANT:
                         - Focus on what's actually cool or important
                         - Connect dots between stories when it makes sense
                         - Keep it to 2-3 sentences
-                        - Sound like a knowledgeable friend sharing interesting tech news"""
+                        - Sound like a knowledgeable friend sharing interesting tech news
+                        - Don't always start by saying 'Hey'"""
                     },
                     {
                         "role": "user",
