@@ -4,9 +4,18 @@ title: About
 permalink: /about/
 ---
 
-# About Me
-
-I'm Giuseppe Concialdi, a Machine Learning Engineer with a deep passion for pushing the boundaries of what's possible with Large Language Models and Generative AI.
+<div class="about-header">
+  <div class="profile-image">
+    <div class="profile-image-wrapper">
+      <img src="/assets/images/profile.jpg" alt="Giuseppe Concialdi" />
+    </div>
+  </div>
+  <div class="about-content">
+    <h1>About Me</h1>
+    
+    <p>I'm Giuseppe Concialdi, a Machine Learning Engineer with a deep passion for pushing the boundaries of what's possible with Large Language Models and Generative AI.</p>
+  </div>
+</div>
 
 ## Background
 
