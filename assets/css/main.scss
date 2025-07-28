@@ -871,3 +871,31 @@ p .katex {
     font-size: 1em;
   }
 }
+
+/* =============================================
+ * Comments Section Styles
+ * ============================================= */
+
+.comments-section {
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--border-grey);
+}
+
+.comments-section h3 {
+  margin-bottom: var(--spacing-md);
+  font-size: 1.3rem;
+  color: var(--primary-grey);
+}
+
+#github-comments {
+  margin-top: var(--spacing-md);
+}
+
+/* Responsive comments */
+@media (max-width: 768px) {
+  .comments-section {
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-md);
+  }
+}
