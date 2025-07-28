@@ -829,3 +829,45 @@ pre code {
     font-size: 1.8rem;
   }
 }
+
+/* =============================================
+ * Math Formula Styles
+ * ============================================= */
+
+/* KaTeX math formula styling */
+.katex-display {
+  margin: var(--spacing-lg) 0;
+  text-align: center;
+}
+
+.katex {
+  font-size: 1.1em;
+}
+
+/* Inline math */
+.katex-display > .katex {
+  text-align: left;
+}
+
+/* Block math */
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: var(--spacing-sm) 0;
+}
+
+/* Math formula spacing */
+p .katex {
+  font-size: 1em;
+}
+
+/* Ensure math doesn't break layout on mobile */
+@media (max-width: 768px) {
+  .katex-display {
+    font-size: 0.9em;
+  }
+  
+  .katex {
+    font-size: 1em;
+  }
+}
