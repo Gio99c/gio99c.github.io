@@ -25,11 +25,14 @@ I write about Large Language Models, Generative AI, and the practical challenges
   {% endfor %}
 </div>
 {% else %}
-<div style="text-align: center; padding: 3rem 0; color: #737373;">
-  <p><em>Coming soon - I'm working on some articles about transformers, LLM training, and generative AI applications.</em></p>
-  
-  <p style="margin-top: 2rem; font-size: 0.9rem;">
-    In the meantime, feel free to <a href="/about/">learn more about me</a> or <a href="mailto:giuseppe.concialdi@example.com">get in touch</a>.
-  </p>
+<div class="writing-placeholder">
+  <div class="placeholder-content">
+    <h2>Coming Soon</h2>
+    <p><em>I'm working on some articles about transformers, LLM training, and generative AI applications.</em></p>
+    
+    <div class="placeholder-actions">
+      <p>In the meantime, feel free to <a href="/about/">learn more about me</a> or <a href="mailto:giuseppe.concialdi@gmail.com">get in touch</a>.</p>
+    </div>
+  </div>
 </div>
 {% endif %} 

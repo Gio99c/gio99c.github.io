@@ -17,7 +17,7 @@ Outside of work, I write about cutting-edge developments in AI, share insights f
 
 ## Latest Writing
 
-{% assign recent_posts = site.posts | slice: 0, 5 %}
+{% assign recent_posts = site.posts | slice: 0, 2 %}
 {% for post in recent_posts %}
 <div class="post-list-item">
   <h3 class="post-title">
@@ -38,10 +38,25 @@ Outside of work, I write about cutting-edge developments in AI, share insights f
 
 ---
 
+## Latest AI News
+
+{% assign latest_news = site.ai_news | sort: 'date' | reverse | slice: 0, 1 %}
+{% for news in latest_news %}
+<div class="latest-news-highlight">
+  <h2><a href="{{ news.url | relative_url }}">AI News Digest</a></h2>
+  <div class="news-summary">{{ news.summary | strip_html | truncate: 200 }}</div>
+  <div class="news-count">{{ news.stories | size }} stories • {{ news.date | date: "%B %d, %Y" }}</div>
+</div>
+{% endfor %}
+
+[View all AI news →](/ai-news/)
+
+---
+
 ## Connect
 
 Feel free to reach out if you'd like to discuss AI research, collaborate on projects, or just chat about the latest developments in machine learning.
 
 * [GitHub](https://github.com/gio99c) 
 * [LinkedIn](https://linkedin.com/in/giuseppe-concialdi)
-* [Email](mailto:giuseppe.concialdi@example.com)
+* [Email](mailto:giuseppe.concialdi@gmail.com)
