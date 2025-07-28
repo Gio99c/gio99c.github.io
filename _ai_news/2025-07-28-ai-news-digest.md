@@ -1,68 +1,57 @@
 ---
 date: '2025-07-28'
 stories:
-- source: Reuters
-  summary: In response to escalating U.S. export restrictions, Chinese AI companies
-    have established two new industry alliances to foster a self-reliant domestic
-    AI ecosystem. The 'Model-Chip Ecosystem Innovation Alliance' unites AI chip producers
-    like Huawei and Biren with large language model developers such as StepFun, aiming
-    to synergize technologies across chips, models, and infrastructure. A second alliance,
-    formed under the Shanghai General Chamber of Commerce AI Committee, seeks to integrate
-    AI into industrial transformation, including firms like SenseTime and MiniMax.
-    These initiatives were announced during the World Artificial Intelligence Conference
-    in Shanghai, where Huawei also introduced its CloudMatrix 384 system, reportedly
-    rivaling Nvidia's top models.
-  title: Chinese AI Firms Form Alliances to Build Domestic Ecosystem Amid US Curbs
-  url: https://www.reuters.com/world/china/chinese-ai-firms-form-alliances-build-domestic-ecosystem-amid-us-curbs-2025-07-28/
-- source: Fladgate
-  summary: Microsoft has announced a $400 million investment to expand and upgrade
-    its cloud and AI infrastructure in Switzerland, focusing on data centers near
-    Zurich and Geneva. This initiative aims to meet the growing demand for AI and
-    cloud services, particularly in regulated sectors like healthcare, finance, and
-    government. The investment also includes partnerships with local innovation parks,
-    support for startups and SMEs, and a major skilling initiative to train one million
-    Swiss citizens in AI and digital competencies by 2027.
-  title: Microsoft Announces $400 Million Investment in Swiss AI Infrastructure
-  url: https://www.fladgate.com/insights/ai-round-up-july-2025
-- source: Reuters
-  summary: In a groundbreaking achievement, AI models from Google DeepMind and OpenAI
-    secured gold medals at the International Mathematical Olympiad (IMO). These models
-    successfully solved complex problems requiring multi-step, creative proofs, marking
-    a significant advancement in machine reasoning. This milestone suggests AI's potential
-    to tackle advanced, unsolved mathematical problems and highlights the importance
-    of high-quality training data and substantial computing power.
-  title: AI Models Achieve Gold Medals at International Mathematical Olympiad
-  url: https://www.reuters.com/technology/ai-intelligencer-how-ai-won-math-gold-2025-07-24/
-- source: Champaign Magazine
-  summary: Meta Platforms CEO Mark Zuckerberg announced the formation of 'Superintelligence
-    Labs,' a new unit dedicated to advancing AI research. The company plans to invest
-    hundreds of billions of dollars into AI development, including significant cloud
-    infrastructure projects like 'Project Prometheus' in Ohio. This move underscores
-    Meta's commitment to leading the AI frontier and intensifies competition among
-    tech giants in the race toward artificial general intelligence (AGI).
-  title: Meta Establishes 'Superintelligence Labs' with Massive AI Investment
-  url: https://champaignmagazine.com/2025/07/20/ai-by-ai-weekly-top-5-07-14-20-2025/
-- source: OpenTools.ai
-  summary: BlackRock is set to lay off 300 employees, marking its second round of
-    job cuts, as part of a strategic realignment focusing on AI-driven growth and
-    acquisitions. This move underscores the firm's commitment to integrating advanced
-    AI technologies into its operations.
-  title: BlackRock Announces Layoffs Amid Strategic AI Acquisitions
-  url: https://opentools.ai/news/blackrocks-strategic-realignment-layoffs-amid-growth-and-acquisitions/acquisitions
-- source: AEEN
-  summary: Major tech companies are aggressively acquiring AI startups, focusing on
-    talent and technology, often leaving other employees and early investors uncertain
-    about their future. This trend highlights the competitive landscape in AI development
-    and the challenges faced by smaller firms.
-  title: Tech Giants' AI Talent Raids Sideline Early Investors
-  url: https://www.aeen.org/big-techs-talent-raids-on-ai-start-ups-sideline-early-investors/
-summary: Looks like Chinese AI firms are banding together to build a resilient homegrown
-  ecosystem in response to U.S. restrictions, with Huawei and others forming alliances
-  to push forward their tech. Meanwhile, Microsoft is putting $400 million into Swiss
-  AI infrastructure, aiming to beef up their cloud offerings and train a cool million
-  Swiss citizens in digital skills. On the AI achievement front, models from DeepMind
-  and OpenAI snagged gold at the International Mathematical Olympiad, pointing to
-  AI's growing knack for complex problem-solving.
+- source: Medium
+  summary: OpenAI has appointed Fidji Simo as the CEO of Applications, aiming to broaden
+    AI access beyond elite circles. Simo plans to make AI tools useful in various
+    domains, including knowledge, health, and creativity, thereby enhancing their
+    accessibility and impact across diverse sectors.
+  title: OpenAI Appoints Fidji Simo as CEO of Applications to Democratize AI Tools
+  url: https://medium.com/daily-ai-for-work-pulse/daily-ai-for-work-pulse-28th-of-july-7cbad2f5dcc6
+- source: Medium
+  summary: Walmart has introduced two new executive roles focused on AI integration
+    in product management and platform development. This strategic move aims to enhance
+    innovation and improve experiences for both customers and associates by leveraging
+    advanced AI technologies.
+  title: Walmart Creates New AI Executive Roles to Accelerate Innovation
+  url: https://medium.com/daily-ai-for-work-pulse/daily-ai-for-work-pulse-28th-of-july-7cbad2f5dcc6
+- source: arXiv
+  summary: This paper evaluates OpenAI's Computer-User Agent (CUA) on the New York
+    Times Wordle game, revealing a significant discrepancy in the model's ability
+    to recognize colors correctly depending on the context. Despite the enthusiasm
+    surrounding AI agents and their potential to usher in Artificial General Intelligence
+    (AGI), the findings highlight substantial challenges for current AI models in
+    performing simple tasks. The authors discuss potential underlying causes, implications
+    for future development, and research directions to improve these AI systems.
+  title: AGI Is Coming... Right After AI Learns to Play Wordle
+  url: https://arxiv.org/abs/2504.15434
+- source: LinkedIn
+  summary: Alta, an AI-driven personal styling platform founded by Jenny Wang, has
+    raised $11 million in a seed funding round led by Menlo Ventures. The platform
+    offers personalized outfit recommendations based on users' budgets, lifestyles,
+    weather, and calendars, featuring virtual try-ons with personalized avatars. The
+    funding will be used to expand the team, enhance research and development, and
+    grow global partnerships.
+  title: Alta Secures $11 Million Seed Funding for AI-Powered Personal Styling Agent
+  url: https://www.linkedin.com/pulse/ai-news-funding-updates-from-last-24-hours18th-june-2025-anshuman-jha-bztxc
+- source: LinkedIn
+  summary: Amazon's CEO, Andy Jassy, has indicated that the company's advancements
+    in Generative AI are expected to significantly reshape its workforce. While no
+    immediate layoffs were announced, Jassy anticipates that AI-driven efficiencies
+    will likely reduce the number of corporate roles in the coming years. Amazon is
+    currently developing over 1,000 Generative AI applications to automate tasks traditionally
+    performed by humans.
+  title: Amazon CEO Andy Jassy Foresees AI-Driven Workforce Reduction
+  url: https://www.linkedin.com/pulse/ai-news-funding-updates-from-last-24-hours18th-june-2025-anshuman-jha-bztxc
+summary: OpenAI's got a new leader in town—Fidji Simo, stepping in as CEO of Applications,
+  is on a mission to make AI tools more accessible and useful across fields like health
+  and creativity. Meanwhile, Walmart's doubling down on AI innovation with fresh executive
+  roles aimed at integrating smart tech into their products and services. And while
+  there's a lot of buzz about AI's future, a recent paper highlights that before AI
+  can reach AGI status, it needs to get better at simple tasks—like playing Wordle
+  without tripping over colors. On the startup front, Alta's snagged $11 million to
+  boost its AI-driven personal styling platform. But not all AI news is rosy; Amazon's
+  Andy Jassy is hinting at AI-driven
 ---
 
-<!-- Generated with AI web search 2025-07-28 13:31 UTC -->
+<!-- Generated with AI web search 2025-07-28 13:41 UTC -->
