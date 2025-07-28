@@ -4,14 +4,15 @@ layout: default
 
 # Hi, I'm Giuseppe Concialdi
 
-I'm a Machine Learning Engineer specializing in Large Language Models and Generative AI. I build systems that understand and generate natural language at scale. 
+I build AI systems that solve real problems. My work spans language models, computer vision, and generative AI—with a focus on making these technologies work reliably in practice.
 
-Currently, I focus on:
-* **LLM Architecture & Training** - Designing and optimizing transformer-based models
-* **Generative AI Applications** - Building practical AI systems for real-world problems  
+I spend most of my time on:
+* **Generative AI** - Creating AI agents that can reason and act autonomously
+* **Language Models** - Designing and optimizing transformer-based models
+* **Computer Vision** - Building systems that understand and process visual data
 * **MLOps & Infrastructure** - Scaling ML systems for production environments
 
-Outside of work, I write about cutting-edge developments in AI, share insights from building with LLMs, and explore the latest research in generative models.
+I write about what I learn along the way, from model architectures to the practical challenges of deploying AI at scale.
 
 ---
 

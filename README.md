@@ -10,14 +10,14 @@ This is where I share insights about AI research, practical applications, and th
 
 **[Writing](/writing/)** - Technical posts about AI, LLMs, and generative AI applications
 
-**[AI News](/ai-news/)** - Daily digest of what's actually happening in AI and tech, curated using OpenAI with real web search
+**[AI News](/ai-news/)** - Daily digest of what's actually happening in AI and tech, curated using AI with real web search
 
 **[About](/about/)** - More about my background and current work
 
 ## AI News System
 
 This site features an automated AI news curation system that:
-- Uses OpenAI's Responses API with web search to find real, current AI news
+- Uses AI's Responses API with web search to find real, current AI news
 - Applies thoughtful curation focused on what matters to practitioners  
 - Runs daily at 9 AM UTC via GitHub Actions
 - Focuses on signal over noise, substance over hype
@@ -28,7 +28,7 @@ The system is designed to cut through AI marketing noise and focus on developmen
 
 - **Jekyll** - Static site generator
 - **GitHub Pages** - Hosting and deployment
-- **OpenAI Responses API** - AI news curation with real web search
+- **AI Responses API** - AI news curation with real web search
 - **GitHub Actions** - Daily automation
 
 ## Connect

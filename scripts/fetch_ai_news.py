@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 AI News Fetcher - What actually happened in AI today
-Using OpenAI Responses API with real web search for accurate, cited results.
+Using AI Responses API with real web search for accurate, cited results.
 """
 
 import os
@@ -23,14 +23,14 @@ class AINewsFetcher:
         self.client = OpenAI(api_key=self.openai_api_key)
     
     def fetch_news(self, date: str) -> dict:
-        """Use OpenAI Responses API with web search to find real AI news."""
+        """Use AI Responses API with web search to find real AI news."""
         
         date_obj = datetime.strptime(date, '%Y-%m-%d')
         readable_date = date_obj.strftime('%B %d, %Y')
         day_name = date_obj.strftime('%A')
         
         try:
-            print(f"🌐 OpenAI searching the web for AI news from {readable_date}...")
+            print(f"🌐 AI searching the web for AI news from {readable_date}...")
             
             # Get recent stories to avoid duplicates
             recent_stories = self._get_recent_stories(7)
@@ -295,7 +295,7 @@ Write something interesting and natural, not overly hyped."""
             print(f"⚠️  Could not save story tracking: {e}")
     
     def _fallback_response(self, date: str) -> dict:
-        """Fallback when OpenAI web search fails."""
+        """Fallback when AI web search fails."""
         date_obj = datetime.strptime(date, '%Y-%m-%d')
         readable_date = date_obj.strftime('%B %d, %Y')
         
@@ -332,7 +332,7 @@ Write something interesting and natural, not overly hyped."""
         content = "---\n"
         content += yaml.dump(frontmatter, default_flow_style=False, allow_unicode=True)
         content += "---\n\n"
-        content += f"<!-- Generated with OpenAI web search {datetime.now().strftime('%Y-%m-%d %H:%M UTC')} -->\n"
+        content += f"<!-- Generated with AI web search {datetime.now().strftime('%Y-%m-%d %H:%M UTC')} -->\n"
         
         return filename, content
     
@@ -346,7 +346,7 @@ Write something interesting and natural, not overly hyped."""
         print(f"✓ Created: {filename}")
 
 def main():
-    parser = argparse.ArgumentParser(description='Fetch AI news using OpenAI web search')
+    parser = argparse.ArgumentParser(description='Fetch AI news using AI web search')
     parser.add_argument('--date', help='Date (YYYY-MM-DD)', 
                        default=datetime.now().strftime('%Y-%m-%d'))
     args = parser.parse_args()

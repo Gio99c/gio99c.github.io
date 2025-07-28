@@ -8,7 +8,7 @@ permalink: /ai-news/
 
 Daily digest of what's happening in AI and tech.
 
-> **How this works**: OpenAI searches the web each morning and curates stories that matter to practitioners. Real sources, real URLs, no hallucinations.
+> **How this works**: AI searches the web each morning and curates stories that matter to practitioners. Real sources, real URLs, no hallucinations.
 
 
 ## Latest
@@ -63,7 +63,7 @@ Daily digest of what's happening in AI and tech.
 
 ## About
 
-OpenAI searches the web daily for what actually matters to AI practitioners:
+AI searches the web daily for what actually matters to AI practitioners:
 
 - Research breakthroughs with real impact
 - Product launches people will use

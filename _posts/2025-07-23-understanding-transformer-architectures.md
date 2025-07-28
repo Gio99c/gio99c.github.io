@@ -123,15 +123,15 @@ class PositionalEncoding(nn.Module):
 
 The original transformer was designed for machine translation, but the architecture has evolved significantly:
 
-**GPT Series**: Decoder-only transformers that excel at text generation
+**Decoder-only models**: Transformers that excel at text generation
 * Use causal (masked) self-attention to prevent looking ahead
 * Scale to billions of parameters with techniques like gradient checkpointing
 
-**BERT**: Encoder-only transformers optimized for understanding
+**Encoder-only models**: Transformers optimized for understanding
 * Bidirectional attention allows looking at full context
 * Pre-trained with masked language modeling
 
-**T5 and Modern LLMs**: Return to encoder-decoder architectures
+**Encoder-decoder models**: Return to encoder-decoder architectures
 * Combine strengths of both encoder and decoder approaches
 * Enable both understanding and generation tasks
 
@@ -143,7 +143,7 @@ The original transformer was designed for machine translation, but the architect
 
 **Sparse Attention**: Models like Longformer and BigBird use sparse attention patterns to handle longer sequences efficiently.
 
-**Rotary Position Embedding (RoPE)**: Used in models like LLaMA, provides better position understanding for longer sequences.
+**Rotary Position Embedding (RoPE)**: Provides better position understanding for longer sequences.
 
 ### Scaling Techniques
 
