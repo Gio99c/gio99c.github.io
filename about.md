@@ -13,55 +13,53 @@ permalink: /about/
   <div class="about-content">
     <h1>About Me</h1>
     
-    <p>I'm Giuseppe Concialdi, a Machine Learning Engineer with a deep passion for pushing the boundaries of what's possible with Large Language Models and Generative AI.</p>
+    <p>I'm Giuseppe Concialdi, a Machine Learning Engineer who builds AI systems that work. I take cutting-edge research and turn it into production-ready solutions that solve real problems.</p>
   </div>
 </div>
 
+## What I Do
+
+I spend my days building AI systems that solve concrete problems. Currently, I'm working on construction technology at [Rebar](https://withrebar.ai). I work on:
+
+**Language and Vision Models**
+* Building agents that can understand complex documents and extract meaningful information
+* Developing custom OCR systems that can read technical drawings and floor plans
+* Creating multimodal systems that combine text and visual understanding
+
+**Production AI Systems**
+* Designing pipelines that process massive documents efficiently
+* Building active learning systems that get smarter over time
+* Implementing CI/CD workflows that keep models accurate and up-to-date
+
+**Research Interests**
+* AI agent development and autonomous systems
+* Multimodal AI and creative applications
+* Music generation and diffusion models
+
 ## Background
 
-My journey in machine learning began with a fascination for how computers could understand and generate human language. Over the years, I've specialized in building and deploying large-scale AI systems, with particular expertise in:
+I started my journey in AI through academic research, where I worked on music generation using diffusion models. That experience taught me the importance of bridging the gap between research breakthroughs and practical applications.
 
-**Large Language Models**
-* Model architecture design and optimization
-* Fine-tuning strategies for domain-specific applications
-* Efficient training techniques and distributed computing
+My path led me through various domains, from academic research to ad tech, and now to construction technology. Each step has reinforced my belief that the most impactful AI work happens when you take cutting-edge research and make it work reliably in real-world scenarios.
 
-**Generative AI**
-* Text generation and creative AI applications
-* Multimodal model development
-* Prompt engineering and AI-human interaction design
+## Technical Approach
 
-**MLOps & Infrastructure**
-* Production ML system design
-* Model deployment and monitoring
-* Scalable training infrastructure
+I believe in building systems that are not just technically impressive, but actually useful. This means:
 
-## Technical Focus
+* **Focusing on real problems** - Not just building cool demos, but solving actual business needs
+* **Emphasizing reliability** - Making sure systems work consistently in production
+* **Continuous improvement** - Building feedback loops that make systems better over time
+* **Practical deployment** - Getting models from research to production efficiently
 
-I'm particularly interested in the intersection of research and practical applications. My work often involves:
+## Writing and Sharing
 
-* **Transformer Architectures** - Exploring attention mechanisms, positional encodings, and architectural innovations
-* **Training Efficiency** - Developing methods to train large models more efficiently
-* **AI Safety & Alignment** - Ensuring AI systems behave predictably and beneficially
-* **Applied Research** - Bridging the gap between academic research and industry applications
-
-## Writing & Sharing
-
-Through this blog, I aim to share insights from both the research frontier and the trenches of building production AI systems. I write about:
-
-* Deep dives into model architectures and training techniques
-* Practical lessons from deploying LLMs in production
-* Analysis of the latest research papers and their implications
-* Tools and methodologies for ML engineers
+I write about what I learn while building these systems. My posts cover everything from the technical details of model architectures to the practical challenges of deploying AI at scale. I believe in sharing knowledge—both the successes and the failures—because that's how we all get better at this craft.
 
 ## Connect
 
-I'm always interested in connecting with fellow researchers, engineers, and anyone passionate about AI. Feel free to reach out:
+I'm always interested in connecting with fellow engineers, researchers, and anyone passionate about building AI systems that make a difference. Feel free to reach out:
 
 * **Email**: [giuseppe.concialdi@gmail.com](mailto:giuseppe.concialdi@gmail.com)
 * **GitHub**: [github.com/gio99c](https://github.com/gio99c)
 * **LinkedIn**: [linkedin.com/in/giuseppe-concialdi](https://linkedin.com/in/giuseppe-concialdi)
 
----
-
-*"The best way to understand intelligence is to build it."*
