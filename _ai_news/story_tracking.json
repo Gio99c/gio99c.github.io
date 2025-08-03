@@ -363,5 +363,15 @@
     "date": "2025-08-02",
     "title": "ASI-Arch: AI System Innovates Neural Architectures Independently",
     "source": "alphaXiv"
+  },
+  {
+    "date": "2025-08-03",
+    "title": "Repair-R1: Enhancing Automated Program Repair with Test-Driven Training",
+    "source": "arXiv"
+  },
+  {
+    "date": "2025-08-03",
+    "title": "Flow Matching Policy Gradients: Advancing Reinforcement Learning with Flow-Based Models",
+    "source": "arXiv"
   }
 ]
