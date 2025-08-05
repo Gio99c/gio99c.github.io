@@ -5,8 +5,12 @@ on:
     branches:
       - main
     paths-ignore:
-      - '_ai_news/**'
       - '.github/workflows/ai-news-daily.yml'
+
+# Prevent conflicts with AI news workflow deployments
+concurrency:
+  group: pages-deployment
+  cancel-in-progress: false
 
 jobs:
   build_and_deploy:
