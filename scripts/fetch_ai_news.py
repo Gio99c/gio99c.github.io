@@ -202,7 +202,7 @@ IMPORTANT:
                 stories_text += f"   {story.get('summary', '')}\n\n"
             
             response = self.client.chat.completions.create(
-                model="gpt-5-mini",
+                model="gpt-4o",
                 messages=[
                     {
                         "role": "system",
