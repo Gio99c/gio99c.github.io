@@ -792,7 +792,7 @@ pre code {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transform: scale(1.2) translateY(-10px);
+  display: block;
 }
 
 .about-content {
@@ -819,10 +819,13 @@ pre code {
     gap: var(--spacing-md);
   }
   
-  .profile-image img {
+  .profile-image-wrapper {
     width: 160px;
     height: 160px;
-    transform: scale(1.05);
+  }
+  
+  .profile-image img {
+    transform: none;
   }
   
   .about-content h1 {
