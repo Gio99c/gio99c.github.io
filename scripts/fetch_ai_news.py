@@ -76,7 +76,7 @@ class AINewsFetcher:
                 
                 try:
                     response = self.client.responses.create(
-                        model="gpt-4o",
+                        model="gpt-5-mini",
                         tools=[{"type": "web_search_preview"}],
                         input=f"""
 Search the web for CURRENT AI and technology news from {readable_date} ({day_name}).
@@ -202,7 +202,7 @@ IMPORTANT:
                 stories_text += f"   {story.get('summary', '')}\n\n"
             
             response = self.client.chat.completions.create(
-                model="gpt-4o",
+                model="gpt-5-mini",
                 messages=[
                     {
                         "role": "system",
