@@ -96,7 +96,16 @@ stories:
   title: OpenAI releases gpt-oss models — powerful open-weight reasoning models for
     developers
   url: https://techcrunch.com/2025/08/05/openai-launches-two-open-ai-reasoning-models/
-summary: OpenAI’s GPT-5 launch has been bumpier than expected, with rollout glitches making the model fumble basic tasks and prompting the return of older versions while fixes roll out. Meanwhile, India’s deep-tech scene just got a boost with a $69M fund for AI, space, and climate startups, and researchers dropped Goedel-Prover-V2 — an open-source theorem-proving model that beats prior records with far fewer parameters. Also in AI news: Profluent claims its AI-designed CRISPR editor outperforms the classic Cas9, Google added a tutor-style “Guided Learning” mode to Gemini, and OpenAI quietly released two open-weight reasoning models that can run on consumer hardware.
+summary: >
+  OpenAI’s GPT-5 launch has been bumpier than expected, with rollout glitches
+  making the model fumble basic tasks and prompting the return of older
+  versions while fixes roll out. Meanwhile, India’s deep-tech scene just got a
+  boost with a $69M fund for AI, space, and climate startups, and researchers
+  dropped Goedel-Prover-V2 — an open-source theorem-proving model that beats
+  prior records with far fewer parameters. Also in AI news: Profluent claims its
+  AI-designed CRISPR editor outperforms the classic Cas9, Google added a
+  tutor-style “Guided Learning” mode to Gemini, and OpenAI quietly released two
+  open-weight reasoning models that can run on consumer hardware.
 ---
 
 <!-- Generated with AI web search 2025-08-12 13:41 UTC -->
