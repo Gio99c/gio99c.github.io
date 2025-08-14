@@ -20,6 +20,10 @@
   
   {% feed_meta %}
   {% seo %}
+
+  {% if jekyll.environment == "production" %}
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="482a717a-8682-4ff1-8d36-e7a0e3740a0a"></script>
+  {% endif %}
 </head>
 
 <body>
