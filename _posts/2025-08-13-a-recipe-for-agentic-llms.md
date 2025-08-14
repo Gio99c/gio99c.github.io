@@ -59,23 +59,23 @@ This is the main difference from classical coding or ML: instructions are natura
 
 Everything in the prompt affects the output. Version prompts like code. I decouple prompts from code and start by versioning with Git. When projects need more flexibility, I use a lightweight script (my “personal Git for prompts”) to check, store, diff across branches, merge, and track. There are dedicated tools—but I’ve consistently used [LangSmith](https://www.langchain.com/langsmith) for experiments and observability. Track prompts and keep a regression test baseline that you check whenever even a comma changes. Prompts shape output as much as data quality shapes classic ML—garbage in, garbage out.
 
-An example is worth a thousand tokens. In almost every task, providing a few-shot prompt is extremely beneficial. The trick is to avoid over-biasing the model toward one modality while covering representative use cases. This is essential when you need a specific format, a precise task, or grounding information. Attaching data as images or small example files also helps when appropriate. The catch: don’t overfit the context and shrink the model’s effective capacity. For more on why examples matter, see “Examples are all you need” [here](https://opper.ai/blog/examples-are-all-you-need?utm_source=chatgpt.com).
+An example is worth a thousand tokens. In almost every task, providing a few-shot prompt is extremely beneficial. The trick is to avoid over-biasing the model toward one modality while covering representative use cases. This is essential when you need a specific format, a precise task, or grounding information. Attaching data as images or small example files also helps when appropriate. The catch: don’t overfit the context and shrink the model’s effective capacity. For more on why examples matter, see [“Examples are all you need”](https://opper.ai/blog/examples-are-all-you-need?utm_source=chatgpt.com).
 
 # Observability
 Understanding and following the call stack and the data flowing through intermediate steps is essential for agentic workflows. There are many tools for this. I use [LangSmith](https://www.langchain.com/langsmith); it integrates with most agent frameworks and lets you navigate LLM calls, inputs/outputs, token counts, model choices, and even cost.
 
 Observing behavior helps debug weird edge cases and search historical runs. It’s a no-brainer to add this early. LangSmith is quick to set up (install, set env vars, open the dashboard), and for a low number of traces it’s free at the time of writing.
 
-These are the absolute basics I suggest to every practitioner building an agentic workflow. Every flow is different, and applications are endless—but this is a broad recipe you can adapt whether you’re hacking for fun or shipping production. Enjoy!
+These are the absolute basics I suggest to every practitioner building an agentic workflow. Every flow is different, and applications are endless, but this is a broad recipe you can adapt whether you’re hacking for fun or shipping production. Enjoy!
 
 ## Further Reading
 
-- A Recipe for Training Neural Networks — Andrej Karpathy: [link](https://karpathy.github.io/2019/04/25/recipe/)
-- Examples are all you need (on the power of few-shot prompts): [link](https://opper.ai/blog/examples-are-all-you-need?utm_source=chatgpt.com)
+- [A Recipe for Training Neural Networks — Andrej Karpathy](https://karpathy.github.io/2019/04/25/recipe/)
+- [Examples are all you need (on the power of few-shot prompts)](https://opper.ai/blog/examples-are-all-you-need?utm_source=chatgpt.com)
 
 ## Useful Resources
 
-- LangSmith (tracing, evals, observability): [link](https://www.langchain.com/langsmith)
-- Cursor (LLM-native code editor, useful for outcome evaluation loops): [link](https://www.cursor.com)
-- Pydantic (data validation and settings management): [link](https://docs.pydantic.dev/)
-- DRY principle (keep your agent tools modular): [link](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+- [LangSmith (tracing, evals, observability)](https://www.langchain.com/langsmith)
+- [Cursor (LLM-native code editor, useful for outcome evaluation loops)](https://www.cursor.com)
+- [Pydantic (data validation and settings management)](https://docs.pydantic.dev/)
+- [DRY principle (keep your agent tools modular)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
