@@ -13,10 +13,12 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="shortcut icon" type="image/png" href="favicon.png">
   
-  <!-- KaTeX for math rendering -->
+  {% if page.math == true %}
+  <!-- KaTeX for math rendering (opt-in per page via front matter: math: true) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
   <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  {% endif %}
   
   {% feed_meta %}
   {% seo %}
@@ -52,12 +54,11 @@
     </div>
   </footer>
 
-  <!-- KaTeX auto-render script -->
+  {% if page.math == true %}
+  <!-- KaTeX auto-render script (only when page.math is true) -->
   <script>
     function renderMath() {
-      console.log("Attempting to render math...");
       if (typeof renderMathInElement !== 'undefined') {
-        console.log("KaTeX auto-render found, rendering math...");
         renderMathInElement(document.body, {
           delimiters: [
             {left: "$$", right: "$$", display: true},
@@ -68,18 +69,14 @@
           throwOnError: false,
           trust: true
         });
-        console.log("Math rendering complete");
       } else {
-        console.log("KaTeX not loaded yet, retrying...");
-        // Retry after a short delay if KaTeX hasn't loaded yet
         setTimeout(renderMath, 100);
       }
     }
-    
     document.addEventListener("DOMContentLoaded", renderMath);
-    // Also try on window load as backup
     window.addEventListener("load", renderMath);
   </script>
+  {% endif %}
 </body>
 
 </html>
