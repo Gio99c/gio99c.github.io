@@ -224,7 +224,7 @@ IMPORTANT:
 Write something interesting and natural, not overly hyped."""
                     }
                 ],
-                max_tokens=150,
+                max_tokens=300,
                 temperature=0.7
             )
             
