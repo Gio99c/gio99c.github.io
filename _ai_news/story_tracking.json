@@ -100,46 +100,6 @@
     "source": "Credo Academy"
   },
   {
-    "date": "2025-07-20",
-    "title": "OpenAI Releases GPT-5 Multimodal Public Beta",
-    "source": "Now In Brief"
-  },
-  {
-    "date": "2025-07-20",
-    "title": "Amazon Acquires AI Wearables Startup Bee to Expand Ambient Intelligence Offering",
-    "source": "CGS Pam"
-  },
-  {
-    "date": "2025-07-20",
-    "title": "BLIP3-o: Open-Sourced Multimodal Models Achieve State-of-the-Art Performance",
-    "source": "Taijitu AI Blog"
-  },
-  {
-    "date": "2025-07-20",
-    "title": "AlphaGenome: DeepMind's Unified Model Advances Genomic Prediction",
-    "source": "Your guide to AI: July 2025"
-  },
-  {
-    "date": "2025-07-20",
-    "title": "Anthropic Seeks to Double Valuation to Over $150 Billion in New Funding Round",
-    "source": "Financial Times"
-  },
-  {
-    "date": "2025-07-20",
-    "title": "Elon Musk's xAI Seeks $12 Billion in Debt Financing for AI Expansion",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-07-20",
-    "title": "Comprehensive Review of Over 70 AI Tools in 2025",
-    "source": "TechRadar"
-  },
-  {
-    "date": "2025-07-20",
-    "title": "Design+Code Launches 'Create Your Dream Apps with Cursor and Claude AI' Course",
-    "source": "Design+Code"
-  },
-  {
     "date": "2025-07-27",
     "title": "AgentRxiv: Enabling Collaborative Autonomous Research Among AI Agents",
     "source": "arXiv"
@@ -948,5 +908,45 @@
     "date": "2025-08-19",
     "title": "ElevenLabs launches Eleven Music — an AI music generator cleared for commercial use",
     "source": "Tom's Guide"
+  },
+  {
+    "date": "2025-08-20",
+    "title": "TinyFish raises $47M to scale AI web agents that automate complex online tasks",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-08-20",
+    "title": "Meta rolls out AI-powered voice translations for creators globally (starting with English and Spanish)",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-08-20",
+    "title": "MIT proposes a benchmark for AI emotional intelligence to curb harmful dependency",
+    "source": "WIRED"
+  },
+  {
+    "date": "2025-08-20",
+    "title": "aims-PAX: a new arXiv preprint automates active learning for machine‑learning force fields",
+    "source": "arXiv"
+  },
+  {
+    "date": "2025-08-20",
+    "title": "TinyFish nets $47M Series A to scale AI web agents that automate complex online tasks",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-08-20",
+    "title": "Meta reorganizes AI division into four teams, sparking investor worries about an AI spending pullback",
+    "source": "Axios"
+  },
+  {
+    "date": "2025-08-20",
+    "title": "Anthropic gives Claude the ability to end damaging or abusive chats",
+    "source": "The Guardian"
+  },
+  {
+    "date": "2025-08-20",
+    "title": "Adobe launches Acrobat Studio — ask your PDFs questions with generative AI",
+    "source": "Axios"
   }
 ]
