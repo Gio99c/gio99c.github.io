@@ -60,46 +60,6 @@
     "source": "Windows Central"
   },
   {
-    "date": "2025-07-21",
-    "title": "Meta Acquires Voice Tech Startup PlayAI to Enhance AI Capabilities",
-    "source": "LinkedIn Pulse"
-  },
-  {
-    "date": "2025-07-21",
-    "title": "Google Enhances Gemini Assistant with Photo-to-Video Conversion Feature",
-    "source": "LinkedIn Pulse"
-  },
-  {
-    "date": "2025-07-21",
-    "title": "SafeWork-R1: Advancing AI Safety and Intelligence Coevolution",
-    "source": "Cool Papers"
-  },
-  {
-    "date": "2025-07-21",
-    "title": "MedGemma: Pioneering Medical Vision-Language Foundation Models",
-    "source": "Data Science Dojo"
-  },
-  {
-    "date": "2025-07-21",
-    "title": "Cohere Lays Off 20 Employees Following $500 Million Funding Round",
-    "source": "CNBC"
-  },
-  {
-    "date": "2025-07-21",
-    "title": "Google Restructures Finance Team Amid $100 Billion AI Investment",
-    "source": "CFO Dive"
-  },
-  {
-    "date": "2025-07-21",
-    "title": "Google AI Studio: A Free Platform for Experimenting with Google's Latest AI Models",
-    "source": "AI Fire"
-  },
-  {
-    "date": "2025-07-21",
-    "title": "Apple Introduces AI Frameworks for Developers to Build Intelligent, Private Apps",
-    "source": "Credo Academy"
-  },
-  {
     "date": "2025-07-27",
     "title": "AgentRxiv: Enabling Collaborative Autonomous Research Among AI Agents",
     "source": "arXiv"
@@ -948,5 +908,45 @@
     "date": "2025-08-20",
     "title": "Adobe launches Acrobat Studio — ask your PDFs questions with generative AI",
     "source": "Axios"
+  },
+  {
+    "date": "2025-08-21",
+    "title": "DeepSeek rolls out V3.1 tuned for Chinese chips and faster inference",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-08-21",
+    "title": "Google expands Search’s AI Mode to 180 countries and adds agentic booking features",
+    "source": "The Verge"
+  },
+  {
+    "date": "2025-08-21",
+    "title": "We‑Math 2.0: A new RL‑driven benchmark and training system to boost multimodal mathematical reasoning",
+    "source": "Hugging Face Papers (paper page for We‑Math 2.0)"
+  },
+  {
+    "date": "2025-08-21",
+    "title": "Modeling human responses to multimodal AI content: new dataset (MhAIM) and T‑Lens agent for human‑aware LLM behavior",
+    "source": "arXiv"
+  },
+  {
+    "date": "2025-08-21",
+    "title": "FieldAI pulls in $405M to build ‘robot brains’ for industrial robots",
+    "source": "Axios"
+  },
+  {
+    "date": "2025-08-21",
+    "title": "Thoma Bravo to take Dayforce private in $12.3B deal as software investors push AI consolidation",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-08-21",
+    "title": "Windows 11 tests AI file & image search inside Copilot — plus guided ‘Vision’ help",
+    "source": "The Verge"
+  },
+  {
+    "date": "2025-08-21",
+    "title": "DeepSeek releases V3.1 model tuned for Chinese chips, adds hybrid inference and API pricing changes",
+    "source": "Reuters"
   }
 ]
