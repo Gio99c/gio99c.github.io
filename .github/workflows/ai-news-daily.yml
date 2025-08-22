@@ -2,7 +2,7 @@ name: Daily AI News
 
 on:
   schedule:
-    - cron: '00 13 * * *'  # 9:00 AM EST daily
+    - cron: '30 12 * * *'  # 8:30 AM EST daily
   workflow_dispatch:
     inputs:
       date:
