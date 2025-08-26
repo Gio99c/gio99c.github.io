@@ -1,35 +1,5 @@
 [
   {
-    "date": "2025-07-26",
-    "title": "Perplexity Launches Comet, an AI-Powered Browser",
-    "source": "LinkedIn Pulse"
-  },
-  {
-    "date": "2025-07-26",
-    "title": "OpenAI Prepares to Launch GPT-5 in August",
-    "source": "Singularity Hub"
-  },
-  {
-    "date": "2025-07-26",
-    "title": "AgentRxiv: Autonomous AI Agents Revolutionize Research Paper Generation",
-    "source": "AI Newsletter"
-  },
-  {
-    "date": "2025-07-26",
-    "title": "Boltz-2: Advancing Structural Biology with AI Foundation Models",
-    "source": "Your Guide to AI"
-  },
-  {
-    "date": "2025-07-26",
-    "title": "TechRadar Reviews Over 70 AI Tools for 2025",
-    "source": "TechRadar"
-  },
-  {
-    "date": "2025-07-26",
-    "title": "Google Partners with Virginia to Offer Free AI Training Courses",
-    "source": "Associated Press"
-  },
-  {
     "date": "2025-07-27",
     "title": "AgentRxiv: Enabling Collaborative Autonomous Research Among AI Agents",
     "source": "arXiv"
@@ -1078,5 +1048,35 @@
     "date": "2025-08-25",
     "title": "Microsoft’s 'Project Ire' AI agent can reverse‑engineer and detect malware",
     "source": "IT Pro"
+  },
+  {
+    "date": "2025-08-26",
+    "title": "NVIDIA ships Jetson Thor — a Blackwell‑powered 'robot brain' for next‑gen humanoids and edge robots",
+    "source": "NVIDIA (press release)"
+  },
+  {
+    "date": "2025-08-26",
+    "title": "Perplexity launches Comet Plus and a $42.5M revenue‑share program to pay publishers",
+    "source": "The Indian Express"
+  },
+  {
+    "date": "2025-08-26",
+    "title": "TCS names Amit Kapur to lead new AI & services transformation unit as Indian IT doubles down on AI",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-08-26",
+    "title": "TikTok’s trust-and-safety shake-up: hundreds of moderator roles put at risk as AI takes over moderation",
+    "source": "The Guardian"
+  },
+  {
+    "date": "2025-08-26",
+    "title": "Google expands AI Mode globally and adds agentic features for reservations and personalization",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-08-26",
+    "title": "GitHub launches an 'agents panel' — a mission control to delegate and manage Copilot coding agents",
+    "source": "ITPro"
   }
 ]
