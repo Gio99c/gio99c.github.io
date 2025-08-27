@@ -1,35 +1,5 @@
 [
   {
-    "date": "2025-07-27",
-    "title": "AgentRxiv: Enabling Collaborative Autonomous Research Among AI Agents",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-07-27",
-    "title": "MedGemma: Advancing Medical Understanding with Vision-Language Foundation Models",
-    "source": "Data Science Dojo"
-  },
-  {
-    "date": "2025-07-27",
-    "title": "ServiceNow to Acquire AI Firm Moveworks for $2.85 Billion",
-    "source": "Unaligned"
-  },
-  {
-    "date": "2025-07-27",
-    "title": "Swedish AI Startup Lovable Achieves Unicorn Status with $200M Series A Funding",
-    "source": "Crunchbase News"
-  },
-  {
-    "date": "2025-07-27",
-    "title": "Runway ML Introduces Gen-4: Revolutionizing AI-Powered Video Creation",
-    "source": "AI Apps"
-  },
-  {
-    "date": "2025-07-27",
-    "title": "EDUCAUSE Launches 'Teaching with AI' Program for Higher Education Faculty",
-    "source": "EDUCAUSE"
-  },
-  {
     "date": "2025-07-28",
     "title": "Chinese AI Firms Form Alliances to Build Domestic Ecosystem Amid US Curbs",
     "source": "Reuters"
@@ -1078,5 +1048,45 @@
     "date": "2025-08-26",
     "title": "GitHub launches an 'agents panel' — a mission control to delegate and manage Copilot coding agents",
     "source": "ITPro"
+  },
+  {
+    "date": "2025-08-27",
+    "title": "Apple sets 'Awe dropping' event for Sept. 9 — iPhone 17 and AI upgrades expected",
+    "source": "The Verge"
+  },
+  {
+    "date": "2025-08-27",
+    "title": "Nvidia’s Q2 earnings in focus as investors watch AI demand and China exposure",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-08-27",
+    "title": "aiXiv: a preprint proposes a dedicated open platform for AI‑generated science",
+    "source": "arXiv (preprint)"
+  },
+  {
+    "date": "2025-08-27",
+    "title": "Towards reliable, generalizable differentially private ML — reproducibility study and best practices",
+    "source": "arXiv (preprint)"
+  },
+  {
+    "date": "2025-08-27",
+    "title": "Assort Health raises ~$50M Series B to scale AI voice agents for medical offices",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-08-27",
+    "title": "Apple reportedly held internal talks about buying Mistral and Perplexity as it eyes faster AI moves",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-08-27",
+    "title": "Replit adds full design-system support for AI‑built apps, plus themes and Figma import",
+    "source": "Replit (company blog)"
+  },
+  {
+    "date": "2025-08-27",
+    "title": "Google confirms viral 'Nano Banana' image‑editing model — now in the Gemini app",
+    "source": "Axios"
   }
 ]
