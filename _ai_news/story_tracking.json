@@ -1,65 +1,5 @@
 [
   {
-    "date": "2025-07-26",
-    "title": "Perplexity Launches Comet, an AI-Powered Browser",
-    "source": "LinkedIn Pulse"
-  },
-  {
-    "date": "2025-07-26",
-    "title": "OpenAI Prepares to Launch GPT-5 in August",
-    "source": "Singularity Hub"
-  },
-  {
-    "date": "2025-07-26",
-    "title": "AgentRxiv: Autonomous AI Agents Revolutionize Research Paper Generation",
-    "source": "AI Newsletter"
-  },
-  {
-    "date": "2025-07-26",
-    "title": "Boltz-2: Advancing Structural Biology with AI Foundation Models",
-    "source": "Your Guide to AI"
-  },
-  {
-    "date": "2025-07-26",
-    "title": "TechRadar Reviews Over 70 AI Tools for 2025",
-    "source": "TechRadar"
-  },
-  {
-    "date": "2025-07-26",
-    "title": "Google Partners with Virginia to Offer Free AI Training Courses",
-    "source": "Associated Press"
-  },
-  {
-    "date": "2025-07-27",
-    "title": "AgentRxiv: Enabling Collaborative Autonomous Research Among AI Agents",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-07-27",
-    "title": "MedGemma: Advancing Medical Understanding with Vision-Language Foundation Models",
-    "source": "Data Science Dojo"
-  },
-  {
-    "date": "2025-07-27",
-    "title": "ServiceNow to Acquire AI Firm Moveworks for $2.85 Billion",
-    "source": "Unaligned"
-  },
-  {
-    "date": "2025-07-27",
-    "title": "Swedish AI Startup Lovable Achieves Unicorn Status with $200M Series A Funding",
-    "source": "Crunchbase News"
-  },
-  {
-    "date": "2025-07-27",
-    "title": "Runway ML Introduces Gen-4: Revolutionizing AI-Powered Video Creation",
-    "source": "AI Apps"
-  },
-  {
-    "date": "2025-07-27",
-    "title": "EDUCAUSE Launches 'Teaching with AI' Program for Higher Education Faculty",
-    "source": "EDUCAUSE"
-  },
-  {
     "date": "2025-07-28",
     "title": "Chinese AI Firms Form Alliances to Build Domestic Ecosystem Amid US Curbs",
     "source": "Reuters"
@@ -958,5 +898,195 @@
     "date": "2025-08-22",
     "title": "GPT‑5 for Builders — OpenAI’s official guide and cookbooks for coding with GPT‑5",
     "source": "OpenAI Academy"
+  },
+  {
+    "date": "2025-08-23",
+    "title": "Apple in early talks to license Google’s Gemini to power a revamped Siri",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-08-23",
+    "title": "Halo unveils Halo X: always‑listening AI smart glasses powered by Gemini and Perplexity",
+    "source": "WIRED"
+  },
+  {
+    "date": "2025-08-23",
+    "title": "Survey Paper Defines “Agentic Science” — a Roadmap for Autonomous AI Scientists",
+    "source": "arXiv"
+  },
+  {
+    "date": "2025-08-23",
+    "title": "aiXiv: Proposal for a Dedicated Preprint Ecosystem for AI‑Generated Science",
+    "source": "arXiv"
+  },
+  {
+    "date": "2025-08-23",
+    "title": "Databricks to acquire feature‑store startup Tecton to speed AI agents",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-08-23",
+    "title": "TikTok to put hundreds of UK content‑moderation roles at risk as it leans on AI",
+    "source": "The Wall Street Journal"
+  },
+  {
+    "date": "2025-08-23",
+    "title": "Google Pledges $1B to Put Gemini, Courses and Cloud Credits into US Colleges",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-08-23",
+    "title": "How to Become a 'Vibe Coder' — WIRED's look at AI tools (Cursor, Claude, Replit) reshaping how people learn to build apps",
+    "source": "WIRED"
+  },
+  {
+    "date": "2025-08-24",
+    "title": "Tavily raises $25M to power the ‘internet of agents’ — a realtime web layer for AI agents",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-08-24",
+    "title": "TinyFish nabs $47M Series A to commercialize AI web agents that automate complex online tasks",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-08-24",
+    "title": "KompeteAI: a new multi‑agent AutoML that merges candidate pipelines to speed search",
+    "source": "arXiv"
+  },
+  {
+    "date": "2025-08-24",
+    "title": "Verifiable stepwise rewards cut LLM ‘overthinking’ and trim reasoning latency",
+    "source": "arXiv"
+  },
+  {
+    "date": "2025-08-24",
+    "title": "Databricks to acquire ML startup Tecton as it bulks up AI‑agent stack",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-08-24",
+    "title": "Meta inks licensing partnership with Midjourney to boost AI imagery across its products",
+    "source": "The Verge"
+  },
+  {
+    "date": "2025-08-24",
+    "title": "CodeSignal launches Cosmo — a mobile AI tutor for coding, GenAI and job skills",
+    "source": "VentureBeat"
+  },
+  {
+    "date": "2025-08-24",
+    "title": "How to Become a ‘Vibe Coder’ — WIRED’s guide to learning to code with AI",
+    "source": "WIRED"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "AEye inks partnership with Blue‑Band to embed Apollo lidar into AI traffic infrastructure",
+    "source": "Business Wire"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "Cearvol launches Wave Lite — an AI‑powered in‑ear hearing aid with 40dB gain",
+    "source": "PR Newswire"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "MIT Researchers Propose a Benchmark to Measure AI 'Emotional Intelligence'",
+    "source": "WIRED"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "AINL‑Eval 2025: Shared Task and 52k‑sample Dataset to Detect AI‑Generated Scientific Abstracts (Russian)",
+    "source": "arXiv"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "Thoma Bravo to buy Verint in $2B deal — a private‑equity play on AI‑powered customer experience",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "Pintarnya nets $16.7M Series A to scale AI job‑matching and fintech services for Indonesia’s blue‑collar workforce",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "Microsoft’s Copilot app for Windows 11 gets a fresh UI and practical modules",
+    "source": "Windows Central"
+  },
+  {
+    "date": "2025-08-25",
+    "title": "Microsoft’s 'Project Ire' AI agent can reverse‑engineer and detect malware",
+    "source": "IT Pro"
+  },
+  {
+    "date": "2025-08-26",
+    "title": "NVIDIA ships Jetson Thor — a Blackwell‑powered 'robot brain' for next‑gen humanoids and edge robots",
+    "source": "NVIDIA (press release)"
+  },
+  {
+    "date": "2025-08-26",
+    "title": "Perplexity launches Comet Plus and a $42.5M revenue‑share program to pay publishers",
+    "source": "The Indian Express"
+  },
+  {
+    "date": "2025-08-26",
+    "title": "TCS names Amit Kapur to lead new AI & services transformation unit as Indian IT doubles down on AI",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-08-26",
+    "title": "TikTok’s trust-and-safety shake-up: hundreds of moderator roles put at risk as AI takes over moderation",
+    "source": "The Guardian"
+  },
+  {
+    "date": "2025-08-26",
+    "title": "Google expands AI Mode globally and adds agentic features for reservations and personalization",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-08-26",
+    "title": "GitHub launches an 'agents panel' — a mission control to delegate and manage Copilot coding agents",
+    "source": "ITPro"
+  },
+  {
+    "date": "2025-08-27",
+    "title": "Apple sets 'Awe dropping' event for Sept. 9 — iPhone 17 and AI upgrades expected",
+    "source": "The Verge"
+  },
+  {
+    "date": "2025-08-27",
+    "title": "Nvidia’s Q2 earnings in focus as investors watch AI demand and China exposure",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-08-27",
+    "title": "aiXiv: a preprint proposes a dedicated open platform for AI‑generated science",
+    "source": "arXiv (preprint)"
+  },
+  {
+    "date": "2025-08-27",
+    "title": "Towards reliable, generalizable differentially private ML — reproducibility study and best practices",
+    "source": "arXiv (preprint)"
+  },
+  {
+    "date": "2025-08-27",
+    "title": "Assort Health raises ~$50M Series B to scale AI voice agents for medical offices",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-08-27",
+    "title": "Apple reportedly held internal talks about buying Mistral and Perplexity as it eyes faster AI moves",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-08-27",
+    "title": "Replit adds full design-system support for AI‑built apps, plus themes and Figma import",
+    "source": "Replit (company blog)"
+  },
+  {
+    "date": "2025-08-27",
+    "title": "Google confirms viral 'Nano Banana' image‑editing model — now in the Gemini app",
+    "source": "Axios"
   }
 ]
