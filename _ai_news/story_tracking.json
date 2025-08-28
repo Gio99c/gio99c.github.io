@@ -1,60 +1,5 @@
 [
   {
-    "date": "2025-07-28",
-    "title": "Chinese AI Firms Form Alliances to Build Domestic Ecosystem Amid US Curbs",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-07-28",
-    "title": "Microsoft Announces $400 Million Investment in Swiss AI Infrastructure",
-    "source": "Fladgate"
-  },
-  {
-    "date": "2025-07-28",
-    "title": "AI Models Achieve Gold Medals at International Mathematical Olympiad",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-07-28",
-    "title": "Meta Establishes 'Superintelligence Labs' with Massive AI Investment",
-    "source": "Champaign Magazine"
-  },
-  {
-    "date": "2025-07-28",
-    "title": "BlackRock Announces Layoffs Amid Strategic AI Acquisitions",
-    "source": "OpenTools.ai"
-  },
-  {
-    "date": "2025-07-28",
-    "title": "Tech Giants' AI Talent Raids Sideline Early Investors",
-    "source": "AEEN"
-  },
-  {
-    "date": "2025-07-28",
-    "title": "OpenAI Appoints Fidji Simo as CEO of Applications to Democratize AI Tools",
-    "source": "Medium"
-  },
-  {
-    "date": "2025-07-28",
-    "title": "Walmart Creates New AI Executive Roles to Accelerate Innovation",
-    "source": "Medium"
-  },
-  {
-    "date": "2025-07-28",
-    "title": "AGI Is Coming... Right After AI Learns to Play Wordle",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-07-28",
-    "title": "Alta Secures $11 Million Seed Funding for AI-Powered Personal Styling Agent",
-    "source": "LinkedIn"
-  },
-  {
-    "date": "2025-07-28",
-    "title": "Amazon CEO Andy Jassy Foresees AI-Driven Workforce Reduction",
-    "source": "LinkedIn"
-  },
-  {
     "date": "2025-07-29",
     "title": "CVPR 2025 Highlights Cutting-Edge AI Research",
     "source": "CVPR Official Website"
@@ -1087,6 +1032,36 @@
   {
     "date": "2025-08-27",
     "title": "Google confirms viral 'Nano Banana' image‑editing model — now in the Gemini app",
+    "source": "Axios"
+  },
+  {
+    "date": "2025-08-28",
+    "title": "Anthropic launches Claude for Chrome — a browser agent that can see pages and act for you",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-08-28",
+    "title": "Microsoft’s Copilot arrives on Samsung’s 2025 TVs and smart monitors",
+    "source": "The Verge"
+  },
+  {
+    "date": "2025-08-28",
+    "title": "Funding stampede: TechCrunch catalogues 33 U.S. AI startups that raised $100M+ in 2025",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-08-28",
+    "title": "TCS forms dedicated AI and services transformation unit, names Amit Kapur to lead it",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-08-28",
+    "title": "DeepLearning.AI launches short course on building agent-driven knowledge graphs (Agentic Knowledge Graph Construction)",
+    "source": "DeepLearning.AI"
+  },
+  {
+    "date": "2025-08-28",
+    "title": "Perplexity launches Comet Plus — a $5 plan that shares 80% of revenue with participating publishers",
     "source": "Axios"
   }
 ]
