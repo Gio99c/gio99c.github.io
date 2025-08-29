@@ -1,25 +1,5 @@
 [
   {
-    "date": "2025-07-29",
-    "title": "CVPR 2025 Highlights Cutting-Edge AI Research",
-    "source": "CVPR Official Website"
-  },
-  {
-    "date": "2025-07-29",
-    "title": "Apple Introduces 'Apple Intelligence Foundation Language Models' in Technical Report",
-    "source": "Zhe Gan's Personal Website"
-  },
-  {
-    "date": "2025-07-29",
-    "title": "Top 10 AI Tools Launched in July 2025 – New AI Apps, Agents & Browsers",
-    "source": "AIBaseNews"
-  },
-  {
-    "date": "2025-07-29",
-    "title": "Create Your Dream Apps with Cursor and Claude AI",
-    "source": "Design+Code"
-  },
-  {
     "date": "2025-07-30",
     "title": "Alibaba Releases Wan2.2: Open-Source Video Generation Model",
     "source": "DreamFaceApp Blog"
@@ -1063,5 +1043,45 @@
     "date": "2025-08-28",
     "title": "Perplexity launches Comet Plus — a $5 plan that shares 80% of revenue with participating publishers",
     "source": "Axios"
+  },
+  {
+    "date": "2025-08-29",
+    "title": "Microsoft AI debuts MAI‑Voice‑1 and MAI‑1‑preview — its first in‑house models",
+    "source": "The Verge"
+  },
+  {
+    "date": "2025-08-29",
+    "title": "Reliance launches 'Reliance Intelligence' subsidiary and strikes AI partnerships with Google and Meta",
+    "source": "The Economic Times"
+  },
+  {
+    "date": "2025-08-29",
+    "title": "aiXiv — an open platform for AI‑generated science aims to let AI agents submit, review and refine papers",
+    "source": "arXiv"
+  },
+  {
+    "date": "2025-08-29",
+    "title": "Hierarchical Reasoning Model (HRM) claims strong reasoning on ARC‑AGI — but reproductions point to training tricks",
+    "source": "Live Science"
+  },
+  {
+    "date": "2025-08-29",
+    "title": "Meta’s Superintelligence hiring spree hits turbulence as departures and a hiring pause ripple through the new AI unit",
+    "source": "The Verge"
+  },
+  {
+    "date": "2025-08-29",
+    "title": "FriendliAI closes $20M seed extension to scale low‑cost, high‑performance AI inference",
+    "source": "FinSMEs (reporting on FriendliAI announcement)"
+  },
+  {
+    "date": "2025-08-29",
+    "title": "Google opens Vids AI video editor to everyone — a faster way to make short presentations",
+    "source": "The Verge"
+  },
+  {
+    "date": "2025-08-29",
+    "title": "Anthropic launches Higher Education advisory board and free 'AI Fluency' courses for students and educators",
+    "source": "Anthropic (company newsroom)"
   }
 ]
