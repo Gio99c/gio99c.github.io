@@ -1,35 +1,5 @@
 [
   {
-    "date": "2025-07-30",
-    "title": "Alibaba Releases Wan2.2: Open-Source Video Generation Model",
-    "source": "DreamFaceApp Blog"
-  },
-  {
-    "date": "2025-07-30",
-    "title": "Runway Introduces Aleph: Natural Language-Based Video Editing",
-    "source": "DreamFaceApp Blog"
-  },
-  {
-    "date": "2025-07-30",
-    "title": "IRIS: Interactive Research Ideation System Enhances Scientific Discovery",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-07-30",
-    "title": "AI Research Community Publishes 117 Groundbreaking Papers in a Single Day",
-    "source": "Konceptual AI"
-  },
-  {
-    "date": "2025-07-30",
-    "title": "Comprehensive Review of Over 70 AI Tools in 2025",
-    "source": "TechRadar"
-  },
-  {
-    "date": "2025-07-30",
-    "title": "EDUCAUSE Launches 'Teaching with AI' Program for Higher Education Faculty",
-    "source": "EDUCAUSE"
-  },
-  {
     "date": "2025-07-31",
     "title": "Meta and Microsoft Report Strong Earnings Driven by AI Investments",
     "source": "Associated Press"
@@ -1083,5 +1053,25 @@
     "date": "2025-08-29",
     "title": "Anthropic launches Higher Education advisory board and free 'AI Fluency' courses for students and educators",
     "source": "Anthropic (company newsroom)"
+  },
+  {
+    "date": "2025-08-30",
+    "title": "Plaud unveils Note Pro — a card‑sized AI note‑taker with AMOLED screen and multi‑mic transcription",
+    "source": "WIRED"
+  },
+  {
+    "date": "2025-08-30",
+    "title": "VCs skipped vacations this summer as AI dealmaking surged",
+    "source": "The Wall Street Journal"
+  },
+  {
+    "date": "2025-08-30",
+    "title": "xAI launches grok-code-fast-1 — a speedy, low‑cost agentic coding model",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-08-30",
+    "title": "Xcode 26 beta 7 adds GPT‑5 and native Claude (Sonnet 4) support — AI help inside Apple’s IDE",
+    "source": "MacRumors"
   }
 ]
