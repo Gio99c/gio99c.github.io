@@ -1,45 +1,5 @@
 [
   {
-    "date": "2025-07-31",
-    "title": "Meta and Microsoft Report Strong Earnings Driven by AI Investments",
-    "source": "Associated Press"
-  },
-  {
-    "date": "2025-07-31",
-    "title": "Amazon Delays Launch of Web-Based Alexa to 'No Sooner Than July 31'",
-    "source": "Windows Central"
-  },
-  {
-    "date": "2025-07-31",
-    "title": "CVPR 2025 Showcases Breakthroughs in 3D Evaluation and Advanced Reasoning Capabilities",
-    "source": "CVPR Official Website"
-  },
-  {
-    "date": "2025-07-31",
-    "title": "AI Scientists' Implementation Capabilities Identified as Bottleneck in Achieving Groundbreaking Results",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-07-31",
-    "title": "Citigroup Appoints Pankaj Goel to Co-Lead Technology Investment Banking",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-07-31",
-    "title": "Microsoft CEO Addresses Layoffs Amid AI Transition",
-    "source": "TechRadar"
-  },
-  {
-    "date": "2025-07-31",
-    "title": "Google AI Studio and NotebookLM: Free AI Development Platforms",
-    "source": "AI Fire"
-  },
-  {
-    "date": "2025-07-31",
-    "title": "LinkedIn Offers Free Access to Top AI Courses Until July 31, 2025",
-    "source": "LinkedIn"
-  },
-  {
     "date": "2025-08-01",
     "title": "Perplexity AI Launches 'Comet': An AI-Powered Web Browser",
     "source": "Perplexity AI Official Announcement"
@@ -1073,5 +1033,25 @@
     "date": "2025-08-30",
     "title": "Xcode 26 beta 7 adds GPT‑5 and native Claude (Sonnet 4) support — AI help inside Apple’s IDE",
     "source": "MacRumors"
+  },
+  {
+    "date": "2025-08-31",
+    "title": "Microsoft unveils its first in‑house MAI models (MAI‑Voice‑1 and MAI‑1‑preview)",
+    "source": "The Verge"
+  },
+  {
+    "date": "2025-08-31",
+    "title": "Microsoft Copilot lands on Samsung’s 2025 smart TVs and monitors",
+    "source": "Windows Central"
+  },
+  {
+    "date": "2025-08-31",
+    "title": "Google’s Jules coding agent exits beta — an asynchronous AI that can run in VMs and open pull requests",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-08-31",
+    "title": "Best free AI training courses for August 2025 — a practical roundup to learn AI and build skills",
+    "source": "Tech.co"
   }
 ]
