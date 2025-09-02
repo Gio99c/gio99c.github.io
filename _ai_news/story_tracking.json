@@ -1,25 +1,5 @@
 [
   {
-    "date": "2025-08-02",
-    "title": "OpenAI Prepares to Launch GPT-5 in August",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-02",
-    "title": "Microsoft Introduces AI-Powered Features in Windows 11 Update",
-    "source": "Windows Central"
-  },
-  {
-    "date": "2025-08-02",
-    "title": "AI Scientist-v2 Achieves Peer-Reviewed Publication Autonomously",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-02",
-    "title": "ASI-Arch: AI System Innovates Neural Architectures Independently",
-    "source": "alphaXiv"
-  },
-  {
     "date": "2025-08-03",
     "title": "Repair-R1: Enhancing Automated Program Repair with Test-Driven Training",
     "source": "arXiv"
@@ -1053,5 +1033,35 @@
     "date": "2025-09-01",
     "title": "Adobe launches Acrobat Studio — AI assistants and 'PDF Spaces' turn documents into conversational work hubs",
     "source": "The Verge"
+  },
+  {
+    "date": "2025-09-02",
+    "title": "U.S. and Indian VCs form $1B+ India Deep Tech Investment Alliance to back AI and other foundational startups",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-09-02",
+    "title": "Dolby unveils Dolby Vision 2 with AI 'Content Intelligence' and shot‑level motion control",
+    "source": "The Verge"
+  },
+  {
+    "date": "2025-09-02",
+    "title": "Salesforce says AI cut ~4,000 support roles as agentic systems now handle half of customer chats",
+    "source": "San Francisco Chronicle"
+  },
+  {
+    "date": "2025-09-02",
+    "title": "Ola’s AI unit Krutrim hits third round of cuts as leaders exit amid restructuring",
+    "source": "The Economic Times"
+  },
+  {
+    "date": "2025-09-02",
+    "title": "Hexaware partners with Replit to bring secure 'vibe coding' to the enterprise",
+    "source": "ITPro (ChannelPro / Future)"
+  },
+  {
+    "date": "2025-09-02",
+    "title": "xAI launches grok-code-fast-1 — a compact agentic coding model aimed at fast, cheap code tasks",
+    "source": "Reuters"
   }
 ]
