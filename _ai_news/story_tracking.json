@@ -1,15 +1,5 @@
 [
   {
-    "date": "2025-08-03",
-    "title": "Repair-R1: Enhancing Automated Program Repair with Test-Driven Training",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-03",
-    "title": "Flow Matching Policy Gradients: Advancing Reinforcement Learning with Flow-Based Models",
-    "source": "arXiv"
-  },
-  {
     "date": "2025-08-04",
     "title": "Meta Unveils SAM 2 for Real-Time Video Object Tracking",
     "source": "LinkedIn"
@@ -1062,6 +1052,36 @@
   {
     "date": "2025-09-02",
     "title": "xAI launches grok-code-fast-1 — a compact agentic coding model aimed at fast, cheap code tasks",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-03",
+    "title": "Sierra close to $350M round as AI agents for customer support heat up",
+    "source": "Axios"
+  },
+  {
+    "date": "2025-09-03",
+    "title": "Google teases 'Gemini for Home' hardware event — new Nest Cam, speaker and more expected",
+    "source": "The Verge"
+  },
+  {
+    "date": "2025-09-03",
+    "title": "OpenAI acquires product‑testing startup Statsig and names CEO Vijaye Raji CTO of applications",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-03",
+    "title": "Anthropic closes massive $13B Series F, lifting post‑money valuation into the high‑hundreds of billions",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-09-03",
+    "title": "Microsoft unveils MAI-Voice-1 and MAI-1‑preview — new in‑house models to power Copilot",
+    "source": "Semafor"
+  },
+  {
+    "date": "2025-09-03",
+    "title": "Anthropic raises $13B and highlights Opus 4.1 — a boost for coding tools and enterprise AI",
     "source": "Reuters"
   }
 ]
