@@ -1,45 +1,5 @@
 [
   {
-    "date": "2025-08-04",
-    "title": "Meta Unveils SAM 2 for Real-Time Video Object Tracking",
-    "source": "LinkedIn"
-  },
-  {
-    "date": "2025-08-04",
-    "title": "OpenAI Begins Rollout of ChatGPT's Advanced Voice Mode",
-    "source": "LinkedIn"
-  },
-  {
-    "date": "2025-08-04",
-    "title": "NeurIPS 2025 Receives Record-Breaking 27,000 Paper Submissions",
-    "source": "CTOL Digital Solutions"
-  },
-  {
-    "date": "2025-08-04",
-    "title": "NeurIPS 2025 Workshop on Epistemic Uncertainty in AI Announces Call for Papers",
-    "source": "A2EI NeurIPS 2025 Workshop"
-  },
-  {
-    "date": "2025-08-04",
-    "title": "Microsoft's Former Deals Chief Launches AI-Focused Private Equity Fund",
-    "source": "The Information"
-  },
-  {
-    "date": "2025-08-04",
-    "title": "OpenAI Offers Lucrative Packages to Secure Top AI Talent",
-    "source": "The Information"
-  },
-  {
-    "date": "2025-08-04",
-    "title": "TechLearning Highlights Innovative EdTech Tools in August 2025",
-    "source": "TechLearning"
-  },
-  {
-    "date": "2025-08-04",
-    "title": "TechRadar Reviews Over 70 AI Tools for 2025",
-    "source": "TechRadar"
-  },
-  {
     "date": "2025-08-05",
     "title": "AI Scientist-v2 Achieves First Fully AI-Generated Peer-Reviewed Paper",
     "source": "arXiv"
@@ -1082,6 +1042,36 @@
   {
     "date": "2025-09-03",
     "title": "Anthropic raises $13B and highlights Opus 4.1 — a boost for coding tools and enterprise AI",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-04",
+    "title": "China’s DeepSeek readies an agentic AI to rival OpenAI, targets release by end of 2025",
+    "source": "Bloomberg"
+  },
+  {
+    "date": "2025-09-04",
+    "title": "Samsung unveils Vision AI Companion at IFA 2025, bringing generative AI and agent features to TVs and displays",
+    "source": "Samsung Newsroom"
+  },
+  {
+    "date": "2025-09-04",
+    "title": "xAI finance chief exits after only months on the job, WSJ reports",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-04",
+    "title": "C3.ai names Stephen Ehikian CEO as revenue falls; stock reacts",
+    "source": "CNBC"
+  },
+  {
+    "date": "2025-09-04",
+    "title": "WordPress unveils Telex — an experimental AI tool that generates Gutenberg blocks and plugins",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-09-04",
+    "title": "PayPal/Venmo users get early access to Perplexity’s Comet — an AI-powered browser that integrates summaries and agentic tasks",
     "source": "Reuters"
   }
 ]
