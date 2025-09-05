@@ -1,35 +1,5 @@
 [
   {
-    "date": "2025-08-05",
-    "title": "AI Scientist-v2 Achieves First Fully AI-Generated Peer-Reviewed Paper",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-05",
-    "title": "AgentRxiv: Enabling Collaborative Autonomous Research Among AI Agents",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-05",
-    "title": "OpenAI Secures $8.3 Billion Funding Round, Valuation Hits $300 Billion",
-    "source": "OwlPost AI"
-  },
-  {
-    "date": "2025-08-05",
-    "title": "Palo Alto Networks to Acquire CyberArk for $25 Billion in AI-Driven Cybersecurity Move",
-    "source": "Macholevante"
-  },
-  {
-    "date": "2025-08-05",
-    "title": "Google Enhances Education with AI-Powered Tools",
-    "source": "Google Blog"
-  },
-  {
-    "date": "2025-08-05",
-    "title": "Top 5 AI Tools Revolutionizing Productivity in 2025",
-    "source": "Ainewsera.com"
-  },
-  {
     "date": "2025-08-06",
     "title": "DataRobot Unveils Agent Workforce Platform for Enterprise AI Management",
     "source": "LinkedIn"
@@ -1073,5 +1043,35 @@
     "date": "2025-09-04",
     "title": "PayPal/Venmo users get early access to Perplexity’s Comet — an AI-powered browser that integrates summaries and agentic tasks",
     "source": "Reuters"
+  },
+  {
+    "date": "2025-09-05",
+    "title": "ProRata.ai raises $40M and launches Gist Answers — an AI search product for publishers",
+    "source": "Axios"
+  },
+  {
+    "date": "2025-09-05",
+    "title": "OpenAI reported to be building its first in‑house AI chip with Broadcom for 2026",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-05",
+    "title": "ProRata.ai pulls in $40M Series B and launches 'Gist Answers' to sell AI search to publishers",
+    "source": "Axios"
+  },
+  {
+    "date": "2025-09-05",
+    "title": "C3.ai names Stephen Ehikian CEO as revenue slides, prompting investor jitters",
+    "source": "CNBC"
+  },
+  {
+    "date": "2025-09-05",
+    "title": "ProRata.ai raises $40M and launches Gist Answers — an AI search/widget publishers can embed",
+    "source": "Axios"
+  },
+  {
+    "date": "2025-09-05",
+    "title": "White House’s 'Presidential AI Challenge' pushes AI tools and training into schools — big pledges from tech groups",
+    "source": "The Guardian"
   }
 ]
