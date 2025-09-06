@@ -1,35 +1,5 @@
 [
   {
-    "date": "2025-08-06",
-    "title": "DataRobot Unveils Agent Workforce Platform for Enterprise AI Management",
-    "source": "LinkedIn"
-  },
-  {
-    "date": "2025-08-06",
-    "title": "Meta Plans to Launch Six New AI Wearables in 2025",
-    "source": "The Economic Times"
-  },
-  {
-    "date": "2025-08-06",
-    "title": "NeurIPS 2025 Calls for Creative AI Submissions",
-    "source": "NeurIPS Official Website"
-  },
-  {
-    "date": "2025-08-06",
-    "title": "MCML Researchers Present 32 Papers at CVPR 2025",
-    "source": "MCML Official Website"
-  },
-  {
-    "date": "2025-08-06",
-    "title": "Ambience Healthcare Secures $243 Million Series C Funding to Advance AI in Clinical Documentation",
-    "source": "Benzinga"
-  },
-  {
-    "date": "2025-08-06",
-    "title": "Applied Intuition Acquires EpiSci to Enhance AI Capabilities in Defense Sector",
-    "source": "Forge Global"
-  },
-  {
     "date": "2025-08-07",
     "title": "OpenAI's ChatGPT 5.0 Launches August 2025 with Multimodal AI",
     "source": "WebProNews"
@@ -1073,5 +1043,45 @@
     "date": "2025-09-05",
     "title": "White House’s 'Presidential AI Challenge' pushes AI tools and training into schools — big pledges from tech groups",
     "source": "The Guardian"
+  },
+  {
+    "date": "2025-09-06",
+    "title": "Snapchat’s new Imagine Lens brings open-prompt AI image generation to Snaps",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-09-06",
+    "title": "Sierra raises $350M at a $10B valuation to scale enterprise AI agents",
+    "source": "CNBC"
+  },
+  {
+    "date": "2025-09-06",
+    "title": "DeepConf — Meta & UCSD show how LLMs can ‘think’ far cheaper by using model confidence to prune bad reasoning traces",
+    "source": "VentureBeat"
+  },
+  {
+    "date": "2025-09-06",
+    "title": "LiquidGEMM: a new W4A8 GEMM kernel for much faster, hardware‑aware LLM serving",
+    "source": "arXiv"
+  },
+  {
+    "date": "2025-09-06",
+    "title": "Salesforce cuts 262 San Francisco roles as Benioff leans into AI automation",
+    "source": "The Washington Post"
+  },
+  {
+    "date": "2025-09-06",
+    "title": "Anthropic agrees to $1.5 billion settlement with authors over pirated books used to train models",
+    "source": "Associated Press"
+  },
+  {
+    "date": "2025-09-06",
+    "title": "OpenAI launches Jobs Platform and certification push to train and credential AI-ready workers",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-09-06",
+    "title": "OpenAI’s Codex rolls out cross‑IDE/CLI updates (new release assets surfaced Sep 5, 2025)",
+    "source": "OpenAI (GitHub release)"
   }
 ]
