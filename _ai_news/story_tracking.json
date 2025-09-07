@@ -1,35 +1,5 @@
 [
   {
-    "date": "2025-08-07",
-    "title": "OpenAI's ChatGPT 5.0 Launches August 2025 with Multimodal AI",
-    "source": "WebProNews"
-  },
-  {
-    "date": "2025-08-07",
-    "title": "Wix Launches Financial Services for Merchants",
-    "source": "Practical Ecommerce"
-  },
-  {
-    "date": "2025-08-07",
-    "title": "InternVL3: Advancing Multimodal Pre-training Paradigms",
-    "source": "Hugging Face"
-  },
-  {
-    "date": "2025-08-07",
-    "title": "Reflect, Retry, Reward: Enhancing LLMs via Reinforcement Learning",
-    "source": "Hugging Face"
-  },
-  {
-    "date": "2025-08-07",
-    "title": "Tavily Secures $25 Million Series A to Enhance AI Agents' Web Connectivity",
-    "source": "Tech Startups"
-  },
-  {
-    "date": "2025-08-07",
-    "title": "CoreWeave to Acquire Core Scientific in $9 Billion All-Stock Deal",
-    "source": "IMAA Institute"
-  },
-  {
     "date": "2025-08-08",
     "title": "OpenAI Releases GPT-OSS: Open-Weight Reasoning Models for Developers",
     "source": "Wikipedia"
@@ -1083,5 +1053,45 @@
     "date": "2025-09-06",
     "title": "OpenAI’s Codex rolls out cross‑IDE/CLI updates (new release assets surfaced Sep 5, 2025)",
     "source": "OpenAI (GitHub release)"
+  },
+  {
+    "date": "2025-09-07",
+    "title": "Amazon‑backed startup Fable unveils long‑form narrative AI, teases digital remake of lost Orson Welles footage",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-09-07",
+    "title": "Dyson debuts Spot+Scrub AI robot at IFA — a vacuum/mop with stain‑seeking AI and a multifunction dock",
+    "source": "The Verge"
+  },
+  {
+    "date": "2025-09-07",
+    "title": "Real-time detection of hallucinated entities in long-form LLM output (new arXiv preprint)",
+    "source": "arXiv"
+  },
+  {
+    "date": "2025-09-07",
+    "title": "Emergent hierarchical reasoning in LLMs via reinforcement learning — new preprint proposes HICRA",
+    "source": "arXiv"
+  },
+  {
+    "date": "2025-09-07",
+    "title": "Anthropic raises $13B Series F, vaulting to a $183B valuation",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-07",
+    "title": "Atlassian to buy AI browser maker The Browser Company for $610M to build a 'work' browser",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-09-07",
+    "title": "Perplexity’s Comet browser gets distribution boost — PayPal/Venmo users get 12‑month Pro trial",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-07",
+    "title": "Replit expands its Agent: 'General Agent' works on any NixOS codebase and adds a Planner mode",
+    "source": "Replit (official changelog)"
   }
 ]
