@@ -1,45 +1,5 @@
 [
   {
-    "date": "2025-08-08",
-    "title": "OpenAI Releases GPT-OSS: Open-Weight Reasoning Models for Developers",
-    "source": "Wikipedia"
-  },
-  {
-    "date": "2025-08-08",
-    "title": "xAI Unveils Grok 3: Advanced AI Model with Enhanced Reasoning Capabilities",
-    "source": "Wikipedia"
-  },
-  {
-    "date": "2025-08-08",
-    "title": "AgentRxiv: Enabling Collaborative Autonomous Research Among AI Agents",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-08",
-    "title": "Data-Driven Breakthroughs and Future Directions in AI Infrastructure: A Comprehensive Review",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-08",
-    "title": "Palo Alto Networks Acquires CyberArk for $25 Billion to Enhance AI-Driven Cybersecurity",
-    "source": "The Economic Times"
-  },
-  {
-    "date": "2025-08-08",
-    "title": "Google Offers Voluntary Buyouts Amid AI Investment Shift",
-    "source": "North American Executive"
-  },
-  {
-    "date": "2025-08-08",
-    "title": "TechRadar Reviews Over 70 AI Tools Across Various Industries",
-    "source": "TechRadar"
-  },
-  {
-    "date": "2025-08-08",
-    "title": "EDUCAUSE Launches 'Teaching with AI' Program for Higher Education Faculty",
-    "source": "EDUCAUSE"
-  },
-  {
     "date": "2025-08-09",
     "title": "OpenAI Releases GPT-5 with Advanced Capabilities",
     "source": "CopyRocket"
@@ -1093,5 +1053,45 @@
     "date": "2025-09-07",
     "title": "Replit expands its Agent: 'General Agent' works on any NixOS codebase and adds a Planner mode",
     "source": "Replit (official changelog)"
+  },
+  {
+    "date": "2025-09-08",
+    "title": "Eloquent AI raises $7.4M seed to sell a finance‑focused AI operator that automates regulated customer workflows",
+    "source": "Business Insider"
+  },
+  {
+    "date": "2025-09-08",
+    "title": "Anthropic publicly endorses California's SB 53 transparency bill for frontier AI",
+    "source": "Anthropic (company announcement)"
+  },
+  {
+    "date": "2025-09-08",
+    "title": "Learning to Deliberate: new meta‑policy framework lets agentic LLMs learn when to Persist, Refine or Concede",
+    "source": "arXiv.org (preprint)"
+  },
+  {
+    "date": "2025-09-08",
+    "title": "RAGuard: a retrieval‑augmented generation (RAG) design that prioritizes safety alongside technical recall",
+    "source": "arXiv.org (preprint)"
+  },
+  {
+    "date": "2025-09-08",
+    "title": "Sierra Nets $350M at $10B Valuation to Double Down on Enterprise AI Agents",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-09-08",
+    "title": "OpenAI Acquires Product‑testing Startup Statsig, Names Its CEO CTO of Applications",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-08",
+    "title": "Big Tech Pledges New AI Education Push — free courses, Copilot access and grants",
+    "source": "The Verge"
+  },
+  {
+    "date": "2025-09-08",
+    "title": "Cisco pledges to train 1 million Americans with 'Learn with Cisco' AI and digital-skills courses",
+    "source": "ITPro"
   }
 ]
