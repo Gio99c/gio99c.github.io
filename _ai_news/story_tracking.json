@@ -1,115 +1,5 @@
 [
   {
-    "date": "2025-08-09",
-    "title": "OpenAI Releases GPT-5 with Advanced Capabilities",
-    "source": "CopyRocket"
-  },
-  {
-    "date": "2025-08-09",
-    "title": "Rakuten Launches AI Agent to Enhance User Experience",
-    "source": "Practical Ecommerce"
-  },
-  {
-    "date": "2025-08-09",
-    "title": "GR00T N1: The First Open-Source General-Purpose Humanoid Robot Foundation Model",
-    "source": "DeepPaper"
-  },
-  {
-    "date": "2025-08-09",
-    "title": "TxAgent: AI Agent Achieves 92.1% Accuracy in Drug Interaction Analysis",
-    "source": "DeepPaper"
-  },
-  {
-    "date": "2025-08-09",
-    "title": "Salesforce to Acquire Informatica in $8 Billion Deal",
-    "source": "YourStory"
-  },
-  {
-    "date": "2025-08-09",
-    "title": "OpenAI Acquires Jony Ive’s AI Hardware Startup io Products for $6.4 Billion",
-    "source": "YourStory"
-  },
-  {
-    "date": "2025-08-10",
-    "title": "OpenAI Releases GPT-5 with Advanced Capabilities",
-    "source": "OpenAI"
-  },
-  {
-    "date": "2025-08-10",
-    "title": "Tavily Secures $25M to Enhance AI Agents' Web Connectivity",
-    "source": "Tech Startups"
-  },
-  {
-    "date": "2025-08-10",
-    "title": "AI Scientist-v2 Achieves Fully Autonomous Peer-Reviewed Publication",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-10",
-    "title": "AgentRxiv: Enabling Collaborative Autonomous Research Among AI Agents",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-10",
-    "title": "Elon Musk's xAI in Talks to Raise $4.3 Billion in Equity",
-    "source": "The Information"
-  },
-  {
-    "date": "2025-08-10",
-    "title": "Microsoft's Former Deals Chief Chris Young Plans AI-Focused Private Equity Fund",
-    "source": "The Information"
-  },
-  {
-    "date": "2025-08-10",
-    "title": "TechRadar Reviews Over 70 AI Tools Across Various Industries",
-    "source": "TechRadar"
-  },
-  {
-    "date": "2025-08-10",
-    "title": "EDUCAUSE Launches 'Teaching with AI' Program for Higher Education Faculty",
-    "source": "EDUCAUSE"
-  },
-  {
-    "date": "2025-08-11",
-    "title": "Microsoft Introduces AI-Powered Features in Windows 11 August 2025 Update",
-    "source": "Windows Central"
-  },
-  {
-    "date": "2025-08-11",
-    "title": "Meta Launches GenSeg: AI Tool for Real-Time Visual Segmentation",
-    "source": "Napnox"
-  },
-  {
-    "date": "2025-08-11",
-    "title": "CVPR 2025 Highlights Breakthroughs in 3D Evaluation and Advanced Reasoning",
-    "source": "CVPR Official Website"
-  },
-  {
-    "date": "2025-08-11",
-    "title": "Stanford AI Lab Introduces Energy-Efficient Training Method for Large Language Models",
-    "source": "FutureFlow"
-  },
-  {
-    "date": "2025-08-11",
-    "title": "Anthropic's Ambitious $2B Funding: Aiming for a $60B Valuation",
-    "source": "OpenTools.ai"
-  },
-  {
-    "date": "2025-08-11",
-    "title": "Tech Industry Layoffs Rise Amid AI Investment Frenzy",
-    "source": "AEEN"
-  },
-  {
-    "date": "2025-08-11",
-    "title": "Synthesia Revolutionizes Video Production with AI-Generated Presenters",
-    "source": "AIApps"
-  },
-  {
-    "date": "2025-08-11",
-    "title": "EDUCAUSE Launches 'Teaching with AI' Program for Higher Education Faculty",
-    "source": "EDUCAUSE"
-  },
-  {
     "date": "2025-08-12",
     "title": "OpenAI’s GPT-5 rollout hits glitches as users report basic errors",
     "source": "Axios"
@@ -1093,5 +983,30 @@
     "date": "2025-09-08",
     "title": "Cisco pledges to train 1 million Americans with 'Learn with Cisco' AI and digital-skills courses",
     "source": "ITPro"
+  },
+  {
+    "date": "2025-09-11",
+    "title": "Oracle’s stock rockets after unveiling multi‑billion AI cloud contracts",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-11",
+    "title": "Microsoft bundles Sales, Service and Finance Copilots into Microsoft 365 Copilot",
+    "source": "The Verge"
+  },
+  {
+    "date": "2025-09-11",
+    "title": "Nebius moves to raise $3B after blockbuster Microsoft GPU deal",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-11",
+    "title": "Windows 11’s September Patch Tuesday adds more Copilot features and an interactive 'Click to Do' tutorial",
+    "source": "Windows Central"
+  },
+  {
+    "date": "2025-09-11",
+    "title": "Boot.dev launches 'Training Grounds' and updates AI-agent and web‑scraping courses to give hands‑on practice",
+    "source": "Boot.dev (blog)"
   }
 ]
