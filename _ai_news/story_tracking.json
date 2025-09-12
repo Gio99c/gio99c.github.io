@@ -1,40 +1,5 @@
 [
   {
-    "date": "2025-08-12",
-    "title": "OpenAI’s GPT-5 rollout hits glitches as users report basic errors",
-    "source": "Axios"
-  },
-  {
-    "date": "2025-08-12",
-    "title": "Indian VC Speciale Invest pledges $69M to back deep‑tech startups including AI",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-12",
-    "title": "Goedel‑Prover‑V2: New open-source LLM sets state‑of‑the‑art in automated theorem proving",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-12",
-    "title": "Profluent’s OpenCRISPR‑1: AI‑designed gene editor reported in Nature, company opens dataset and tools",
-    "source": "GEN (Genetic Engineering & Biotechnology News)"
-  },
-  {
-    "date": "2025-08-12",
-    "title": "GitHub CEO Thomas Dohmke to step down, plans to found a new startup",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-12",
-    "title": "Google’s Gemini adds Guided Learning — an AI tutor built for real study",
-    "source": "The Verge"
-  },
-  {
-    "date": "2025-08-12",
-    "title": "OpenAI releases gpt-oss models — powerful open-weight reasoning models for developers",
-    "source": "TechCrunch"
-  },
-  {
     "date": "2025-08-13",
     "title": "Sam Altman backs Merge Labs to challenge Neuralink with high‑bandwidth brain‑computer interface push",
     "source": "Financial Times"
@@ -1008,5 +973,35 @@
     "date": "2025-09-11",
     "title": "Boot.dev launches 'Training Grounds' and updates AI-agent and web‑scraping courses to give hands‑on practice",
     "source": "Boot.dev (blog)"
+  },
+  {
+    "date": "2025-09-12",
+    "title": "Microsoft Research unveils rStar2‑Agent — trains frontier reasoning models at a fraction of the cost",
+    "source": "VentureBeat"
+  },
+  {
+    "date": "2025-09-12",
+    "title": "Databricks’ AI head Naveen Rao to leave and start a new computer startup; Databricks to invest",
+    "source": "Bloomberg"
+  },
+  {
+    "date": "2025-09-12",
+    "title": "Perplexity reportedly secures $200M at a $20B valuation as it doubles down on AI search",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-09-12",
+    "title": "Microsoft and OpenAI sign MoU to clear a path for OpenAI’s restructuring and capital raises",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-12",
+    "title": "Beginner tutorial: Build an AI agent with LangChain — step‑by‑step guide for developers",
+    "source": "TechTarget (SearchEnterpriseAI)"
+  },
+  {
+    "date": "2025-09-12",
+    "title": "IIT Madras rolls out free 'AI for Educators' courses — foundational AI and subject‑specific modules",
+    "source": "The Times of India"
   }
 ]
