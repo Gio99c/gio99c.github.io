@@ -1,45 +1,5 @@
 [
   {
-    "date": "2025-08-13",
-    "title": "Sam Altman backs Merge Labs to challenge Neuralink with high‑bandwidth brain‑computer interface push",
-    "source": "Financial Times"
-  },
-  {
-    "date": "2025-08-13",
-    "title": "Refold AI emerges from stealth with $6.5M seed to automate enterprise API integrations",
-    "source": "The Economic Times"
-  },
-  {
-    "date": "2025-08-13",
-    "title": "‘Deep ignorance’: filtering training data reduces AI biorisk without wrecking capability",
-    "source": "The Washington Post"
-  },
-  {
-    "date": "2025-08-13",
-    "title": "Position paper argues the centralized AI conference model is unsustainable — proposes a Community‑Federated Conference",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-13",
-    "title": "Perplexity shocks the web with a $34.5B unsolicited bid for Google’s Chrome",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-13",
-    "title": "CoreWeave posts blockbuster revenue but widening losses spook investors",
-    "source": "CNBC"
-  },
-  {
-    "date": "2025-08-13",
-    "title": "Microsoft folds GPT‑5 into Copilot — smart model routing and deeper coding help arrive in August",
-    "source": "The Verge"
-  },
-  {
-    "date": "2025-08-13",
-    "title": "Replit’s ‘vibe coding’ claims: build an app in an afternoon — and a new wave of solo startups",
-    "source": "Business Insider"
-  },
-  {
     "date": "2025-08-14",
     "title": "DeepSeek delays new AI model launch after training problems with Huawei chips",
     "source": "Reuters"
@@ -1003,5 +963,45 @@
     "date": "2025-09-12",
     "title": "IIT Madras rolls out free 'AI for Educators' courses — foundational AI and subject‑specific modules",
     "source": "The Times of India"
+  },
+  {
+    "date": "2025-09-13",
+    "title": "xAI cuts ~500 data annotators as it pivots to specialist 'AI tutors'",
+    "source": "Business Insider"
+  },
+  {
+    "date": "2025-09-13",
+    "title": "Replit raises $250M at $3B valuation and launches Agent 3 autonomous coding agent",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-13",
+    "title": "Publisher analysis finds widespread LLM‑generated text in manuscripts and peer reviews — and a tool to spot it",
+    "source": "Nature"
+  },
+  {
+    "date": "2025-09-13",
+    "title": "ResearchQA: a large, survey‑mined benchmark to evaluate scholarly question‑answering across 75 fields",
+    "source": "arXiv (University of Pennsylvania authors)"
+  },
+  {
+    "date": "2025-09-13",
+    "title": "Elon Musk’s xAI cuts ~500 data annotators as it pivots to specialist ‘AI tutors’",
+    "source": "Business Insider"
+  },
+  {
+    "date": "2025-09-13",
+    "title": "Senior Apple AI/search exec Robby Walker to depart amid Siri delays and AI talent shakeup",
+    "source": "Reuters (reporting Bloomberg)"
+  },
+  {
+    "date": "2025-09-13",
+    "title": "Oboe launches an AI-powered learning platform that builds custom courses from a prompt",
+    "source": "TechRadar"
+  },
+  {
+    "date": "2025-09-13",
+    "title": "Google expands Gemini and NotebookLM with audio uploads, flashcards, quizzes and new report formats",
+    "source": "The Verge"
   }
 ]
