@@ -1,45 +1,5 @@
 [
   {
-    "date": "2025-08-14",
-    "title": "DeepSeek delays new AI model launch after training problems with Huawei chips",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-14",
-    "title": "Arintra raises $21M Series A to scale GenAI medical-coding platform",
-    "source": "The Economic Times"
-  },
-  {
-    "date": "2025-08-14",
-    "title": "Step-Entropy Shrinks Chain-of-Thoughts — a new arXiv paper shows LLMs can prune most redundant reasoning steps",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-14",
-    "title": "Refine‑n‑Judge: use one LLM to iteratively refine and judge responses — a scalable route to better fine‑tuning data",
-    "source": "AskAiBrain (weekly arXiv roundup)"
-  },
-  {
-    "date": "2025-08-14",
-    "title": "Healthcare AI champion Abridge readies M&A spree after $700M run — 20% of war chest earmarked for acquisitions",
-    "source": "Business Insider"
-  },
-  {
-    "date": "2025-08-14",
-    "title": "CoreWeave posts strong revenue but warns on power constraints as $9B Core Scientific takeover faces shareholder pushback",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-14",
-    "title": "Windows 11 August 2025 update brings AI agent to Settings, Click-to-Do enhancements and Quick Machine Recovery",
-    "source": "Windows Central"
-  },
-  {
-    "date": "2025-08-14",
-    "title": "Best free AI training courses for August 2025 — quick, practical paths to learn AI and coding",
-    "source": "Tech.co"
-  },
-  {
     "date": "2025-08-15",
     "title": "Cohere raises $500M at $6.8B valuation, hires Meta AI veteran to ramp up enterprise and agentic AI",
     "source": "Reuters"
@@ -1003,5 +963,40 @@
     "date": "2025-09-13",
     "title": "Google expands Gemini and NotebookLM with audio uploads, flashcards, quizzes and new report formats",
     "source": "The Verge"
+  },
+  {
+    "date": "2025-09-14",
+    "title": "Report: OpenAI to Cut Partner Revenue Share to ~8% as Microsoft Deal Is Renegotiated",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-14",
+    "title": "Light-powered silicon photonic chip slashes AI energy for convolution ops (≈10–100×)",
+    "source": "ScienceDaily (reporting SPIE / University of Florida research)"
+  },
+  {
+    "date": "2025-09-14",
+    "title": "EU Joint Research Centre: 'Nine challenges' taxonomy warns limits of current AI benchmarking",
+    "source": "European Commission — AI Watch / Joint Research Centre"
+  },
+  {
+    "date": "2025-09-14",
+    "title": "Perplexity reportedly closes $200M at a $20B valuation as AI search funding streak continues",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-09-14",
+    "title": "UK and US to sign multibillion‑dollar tech pact — AI and data‑centre investments in focus during state visit",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-14",
+    "title": "Coursera unveils Role Play, Course Builder for partners and new Skill Tracks to teach GenAI and coding skills",
+    "source": "Coursera Blog"
+  },
+  {
+    "date": "2025-09-14",
+    "title": "Windows 11 testing expands Copilot Studio Effects to external webcams and adds handy Copilot UI upgrades",
+    "source": "Windows Central"
   }
 ]
