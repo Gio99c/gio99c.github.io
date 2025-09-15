@@ -1,35 +1,5 @@
 [
   {
-    "date": "2025-08-15",
-    "title": "Cohere raises $500M at $6.8B valuation, hires Meta AI veteran to ramp up enterprise and agentic AI",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-15",
-    "title": "Cognition secures ~ $500M to accelerate Devin, the autonomous coding agent, pushing valuation near $10B",
-    "source": "The Wall Street Journal"
-  },
-  {
-    "date": "2025-08-15",
-    "title": "Cohere raises $500M at $6.8B valuation, taps Meta AI veteran as chief AI officer",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-15",
-    "title": "Cognition nets nearly $500M to fuel its AI coding push after Windsurf deal",
-    "source": "The Wall Street Journal"
-  },
-  {
-    "date": "2025-08-15",
-    "title": "OpenAI launches 'GPT‑5 for Builders' learning resources — cookbooks, prompting guides and coding tutorials",
-    "source": "OpenAI (OpenAI Academy)"
-  },
-  {
-    "date": "2025-08-15",
-    "title": "Cursor’s Bugbot rolls out as a paid debugging assistant to catch AI‑generated mistakes",
-    "source": "Wired"
-  },
-  {
     "date": "2025-08-16",
     "title": "Parag Agrawal’s Parallel exits stealth with a web-research API for AI — and $30M backing",
     "source": "Business Insider (India)"
@@ -998,5 +968,45 @@
     "date": "2025-09-14",
     "title": "Windows 11 testing expands Copilot Studio Effects to external webcams and adds handy Copilot UI upgrades",
     "source": "Windows Central"
+  },
+  {
+    "date": "2025-09-15",
+    "title": "Spara exits stealth with $15M seed to deploy AI sales agents for inbound leads",
+    "source": "Business Insider"
+  },
+  {
+    "date": "2025-09-15",
+    "title": "Apple debuts iPhone 17 lineup and iPhone Air; Apple Intelligence surfaces in new hardware features",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-09-15",
+    "title": "ArXiv preprint warns of hidden failure modes in ‘AI scientist’ systems",
+    "source": "arXiv"
+  },
+  {
+    "date": "2025-09-15",
+    "title": "Large-scale preprint finds LLM-linked wording has surged in academic papers since ChatGPT",
+    "source": "infoDOCKET (Library Journal / Gary Price)"
+  },
+  {
+    "date": "2025-09-15",
+    "title": "xAI cuts ~500 data annotators as Musk’s Grok team pivots to specialist tutoring",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-15",
+    "title": "Stealth sales startup Spara emerges with $15M seed to automate inbound sales via AI agents",
+    "source": "Business Insider"
+  },
+  {
+    "date": "2025-09-15",
+    "title": "Microsoft previews 'Personal Shopping Agent' — low-code Copilot Studio tool for retailers",
+    "source": "Windows Central"
+  },
+  {
+    "date": "2025-09-15",
+    "title": "IIT Madras rolls out free 'AI for Educators' course (plus domain micro-courses) on SWAYAM Plus",
+    "source": "The Times of India"
   }
 ]
