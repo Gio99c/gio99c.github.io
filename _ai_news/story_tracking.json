@@ -1,45 +1,5 @@
 [
   {
-    "date": "2025-08-16",
-    "title": "Parag Agrawal’s Parallel exits stealth with a web-research API for AI — and $30M backing",
-    "source": "Business Insider (India)"
-  },
-  {
-    "date": "2025-08-16",
-    "title": "OpenAI employees exploring sale of up to $6B in shares to SoftBank and others — Reuters",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-16",
-    "title": "AINL‑Eval 2025: Large shared task and dataset for detecting AI‑generated scientific abstracts (Russian)",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-16",
-    "title": "CABENCH: A new benchmark for composable AI that evaluates pipelines of ready‑to‑use models",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-16",
-    "title": "Meta Plans Fourth Overhaul of Its AI Unit as It Doubles Down on ‘Superintelligence’",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-16",
-    "title": "Oracle Issues WARN Notices, Cutting ~188 Bay‑Area Cloud Jobs as AI Capex Rises",
-    "source": "San Francisco Chronicle"
-  },
-  {
-    "date": "2025-08-16",
-    "title": "Anthropic expands Claude’s 'Learning' modes — turns the AI into a study partner and coding coach",
-    "source": "Tom's Guide"
-  },
-  {
-    "date": "2025-08-16",
-    "title": "Vercel launches AI Elements (plus AI SDK 5 features) to speed building AI-native frontends",
-    "source": "InfoQ"
-  },
-  {
     "date": "2025-08-17",
     "title": "Google pledges $9 billion to boost AI and cloud infrastructure in Oklahoma",
     "source": "Reuters"
@@ -1008,5 +968,45 @@
     "date": "2025-09-15",
     "title": "IIT Madras rolls out free 'AI for Educators' course (plus domain micro-courses) on SWAYAM Plus",
     "source": "The Times of India"
+  },
+  {
+    "date": "2025-09-16",
+    "title": "OpenAI builds a teen-specific ChatGPT experience to limit safety risks",
+    "source": "Axios"
+  },
+  {
+    "date": "2025-09-16",
+    "title": "Jack Altman closes $275M Alt Capital II to back AI enterprise startups",
+    "source": "The Wall Street Journal"
+  },
+  {
+    "date": "2025-09-16",
+    "title": "Google DeepMind researchers propose 'Generative Data Refinement' to reclaim unusable training data",
+    "source": "Business Insider"
+  },
+  {
+    "date": "2025-09-16",
+    "title": "VQualA 2025: ICCV workshop challenge shows LMMs improving at open-ended visual quality comparison",
+    "source": "arXiv"
+  },
+  {
+    "date": "2025-09-16",
+    "title": "OpenAI hires ex‑xAI finance chief Mike Liberatore to scale compute and business finance",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-16",
+    "title": "Wired: Over 200 AI contractors who worked on Google’s Gemini and AI Overviews were fired amid pay and conditions dispute",
+    "source": "WIRED"
+  },
+  {
+    "date": "2025-09-16",
+    "title": "DeepLearning.AI launches hands‑on short course on knowledge graphs for AI agents",
+    "source": "DeepLearning.AI"
+  },
+  {
+    "date": "2025-09-16",
+    "title": "Gemini’s ‘Nano Banana’ image editor continues to surge — powerful in-app image edits go viral",
+    "source": "9to5Google"
   }
 ]
