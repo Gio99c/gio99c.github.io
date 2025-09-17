@@ -1,35 +1,5 @@
 [
   {
-    "date": "2025-08-17",
-    "title": "Google pledges $9 billion to boost AI and cloud infrastructure in Oklahoma",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-17",
-    "title": "Sam Altman backs Merge Labs to take on Neuralink in brain‑computer interfaces",
-    "source": "Financial Times"
-  },
-  {
-    "date": "2025-08-17",
-    "title": "Sample More to Think Less — Microsoft researchers publish GFPO to cut RL-induced verbosity in LLM reasoning",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-17",
-    "title": "NextStep‑1 pushes autoregressive image generation with continuous tokens at scale",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-17",
-    "title": "Google’s Gemini adds Guided Learning — an AI tutor that teaches you step-by-step",
-    "source": "TechCrunch"
-  },
-  {
-    "date": "2025-08-17",
-    "title": "Perplexity ships built‑in AI video generation (Aug 15): short videos with audio for Pro/Max users",
-    "source": "Perplexity (Changelog)"
-  },
-  {
     "date": "2025-08-18",
     "title": "Tredence debuts ‘Milky Way’ — an agentic AI platform of prebuilt enterprise agents",
     "source": "TechCircle"
@@ -1008,5 +978,45 @@
     "date": "2025-09-16",
     "title": "Gemini’s ‘Nano Banana’ image editor continues to surge — powerful in-app image edits go viral",
     "source": "9to5Google"
+  },
+  {
+    "date": "2025-09-17",
+    "title": "Groq raises $750M, valuation surges to $6.9B as investors double down on AI inference chips",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-17",
+    "title": "Workday to acquire enterprise AI startup Sana for about $1.1B to add agents and AI learning",
+    "source": "Workday (press release / PR Newswire)"
+  },
+  {
+    "date": "2025-09-17",
+    "title": "ParaThinker — training LLMs to ‘think in parallel’ to beat tunnel‑vision and boost reasoning",
+    "source": "MarkTechPost"
+  },
+  {
+    "date": "2025-09-17",
+    "title": "REFRAG — rethink RAG decoding to compress context, extend context length and cut inference latency",
+    "source": "arXiv"
+  },
+  {
+    "date": "2025-09-17",
+    "title": "AI chip startup Groq raises $750M, valuation soars to $6.9B",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-17",
+    "title": "Workday to buy AI knowledge-and-agent startup Sana for about $1.1B",
+    "source": "Workday (PR Newswire / investor release)"
+  },
+  {
+    "date": "2025-09-17",
+    "title": "Replit raises $250M and launches Agent 3 — an autonomous AI that tests, fixes code and builds workflows",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-17",
+    "title": "Microsoft adds role-based Sales, Service and Finance Copilots to Microsoft 365 (moving them to the Frontier)",
+    "source": "Microsoft 365 Blog (official)"
   }
 ]
