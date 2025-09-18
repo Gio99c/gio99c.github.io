@@ -1,45 +1,5 @@
 [
   {
-    "date": "2025-08-18",
-    "title": "Tredence debuts ‘Milky Way’ — an agentic AI platform of prebuilt enterprise agents",
-    "source": "TechCircle"
-  },
-  {
-    "date": "2025-08-18",
-    "title": "Parag Agrawal launches Parallel to build a ‘web for machines’ — Deep Research API goes public",
-    "source": "The Indian Express"
-  },
-  {
-    "date": "2025-08-18",
-    "title": "NSF and NVIDIA back Ai2’s OMAI project to build open multimodal AI models for science",
-    "source": "National Science Foundation (NSF)"
-  },
-  {
-    "date": "2025-08-18",
-    "title": "MIT researchers use generative AI to design novel antibiotics that beat drug‑resistant bacteria",
-    "source": "MIT News"
-  },
-  {
-    "date": "2025-08-18",
-    "title": "Yext CEO offers to take AI search‑visibility firm private in $1.1B bid",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-18",
-    "title": "Anthropic raising roughly $5B at ~$170B valuation — and restricting SPVs",
-    "source": "Business Insider"
-  },
-  {
-    "date": "2025-08-18",
-    "title": "Vibecode brings ‘vibe coding’ to iPhone — build apps with natural language, raises $9.4M",
-    "source": "Business Insider"
-  },
-  {
-    "date": "2025-08-18",
-    "title": "Google pledges $1 billion for AI education and gives college students free access to advanced Gemini tools",
-    "source": "CBS News"
-  },
-  {
     "date": "2025-08-19",
     "title": "Databricks eyes >$100B valuation as investors back its AI growth plans",
     "source": "Reuters"
@@ -1018,5 +978,35 @@
     "date": "2025-09-17",
     "title": "Microsoft adds role-based Sales, Service and Finance Copilots to Microsoft 365 (moving them to the Frontier)",
     "source": "Microsoft 365 Blog (official)"
+  },
+  {
+    "date": "2025-09-18",
+    "title": "Vibranium Labs raises $4.6M to launch ‘Vibe AI’ agents that monitor and fix production apps",
+    "source": "Business Insider"
+  },
+  {
+    "date": "2025-09-18",
+    "title": "Meta unveils Ray‑Ban Display smart glasses with built‑in HUD and wristband controller",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-18",
+    "title": "Nvidia to invest $5 billion in Intel as the companies team up on AI infrastructure and PCs",
+    "source": "Associated Press"
+  },
+  {
+    "date": "2025-09-18",
+    "title": "Inside xAI’s tumultuous month: locked Slack accounts, chaotic all‑hands and waves of job cuts",
+    "source": "Business Insider"
+  },
+  {
+    "date": "2025-09-18",
+    "title": "Microsoft to auto‑install Microsoft 365 Copilot app on Windows PCs starting in October — and many personal users can’t opt out",
+    "source": "TechRadar"
+  },
+  {
+    "date": "2025-09-18",
+    "title": "Google pauses Chrome’s controversial “homework help” Lens button after educators warn it makes cheating too easy",
+    "source": "The Washington Post"
   }
 ]
