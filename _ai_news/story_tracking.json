@@ -1,45 +1,5 @@
 [
   {
-    "date": "2025-08-19",
-    "title": "Databricks eyes >$100B valuation as investors back its AI growth plans",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-19",
-    "title": "IVIX raises $60M Series B to scale AI tools that spot financial crime",
-    "source": "The Wall Street Journal"
-  },
-  {
-    "date": "2025-08-19",
-    "title": "OverFill: a two‑stage decoding method that slashes LLM inference cost without retraining",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-19",
-    "title": "Activation steering for bias mitigation: interpretable, inference‑time interventions inside LLMs",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-19",
-    "title": "Databricks eyes >$100B valuation in new late‑stage funding round",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-19",
-    "title": "CoreWeave’s proposed $9B all‑stock takeover of Core Scientific becomes a benchmark AI infrastructure deal",
-    "source": "Financial Times"
-  },
-  {
-    "date": "2025-08-19",
-    "title": "OpenAI’s GPT‑5 lands inside GitHub — now generally available in GitHub Models (and rolling into IDE previews)",
-    "source": "GitHub Changelog (GitHub Blog)"
-  },
-  {
-    "date": "2025-08-19",
-    "title": "ElevenLabs launches Eleven Music — an AI music generator cleared for commercial use",
-    "source": "Tom's Guide"
-  },
-  {
     "date": "2025-08-20",
     "title": "TinyFish raises $47M to scale AI web agents that automate complex online tasks",
     "source": "Reuters"
@@ -1008,5 +968,45 @@
     "date": "2025-09-18",
     "title": "Google pauses Chrome’s controversial “homework help” Lens button after educators warn it makes cheating too easy",
     "source": "The Washington Post"
+  },
+  {
+    "date": "2025-09-19",
+    "title": "Apple Watch Series 11 uses AI to surface possible high blood pressure alerts",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-19",
+    "title": "Google brings Gemini into Chrome — agentic browsing, AI Mode, multi‑tab summaries and scam protection",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-09-19",
+    "title": "REFRAG — Meta Superintelligence Labs’ new decoding method promises 16× longer contexts and up to ~31× faster RAG decoding",
+    "source": "arXiv (paper) — coverage example: MarkTechPost"
+  },
+  {
+    "date": "2025-09-19",
+    "title": "FlexBench and an Open MLPerf dataset — reframing system benchmarking as a learning task",
+    "source": "arXiv (paper) — authors' project/blog at Flex.AI"
+  },
+  {
+    "date": "2025-09-19",
+    "title": "SoftBank’s Vision Fund to cut ~20% of staff as it pivots heavily into AI bets",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-19",
+    "title": "Fraud‑prevention platform SEON raises $80M Series C to scale AI detection and global expansion",
+    "source": "FinTech Futures"
+  },
+  {
+    "date": "2025-09-19",
+    "title": "Google weaves Gemini into Chrome, turning the browser into an AI-first tool",
+    "source": "WIRED"
+  },
+  {
+    "date": "2025-09-19",
+    "title": "Microsoft surfaces a 'Windows AI Labs' preview program to test experimental AI features in Windows 11 apps",
+    "source": "Windows Central"
   }
 ]
