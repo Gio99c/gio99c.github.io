@@ -1,45 +1,5 @@
 [
   {
-    "date": "2025-08-20",
-    "title": "TinyFish raises $47M to scale AI web agents that automate complex online tasks",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-20",
-    "title": "Meta rolls out AI-powered voice translations for creators globally (starting with English and Spanish)",
-    "source": "TechCrunch"
-  },
-  {
-    "date": "2025-08-20",
-    "title": "MIT proposes a benchmark for AI emotional intelligence to curb harmful dependency",
-    "source": "WIRED"
-  },
-  {
-    "date": "2025-08-20",
-    "title": "aims-PAX: a new arXiv preprint automates active learning for machine‑learning force fields",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-20",
-    "title": "TinyFish nets $47M Series A to scale AI web agents that automate complex online tasks",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-20",
-    "title": "Meta reorganizes AI division into four teams, sparking investor worries about an AI spending pullback",
-    "source": "Axios"
-  },
-  {
-    "date": "2025-08-20",
-    "title": "Anthropic gives Claude the ability to end damaging or abusive chats",
-    "source": "The Guardian"
-  },
-  {
-    "date": "2025-08-20",
-    "title": "Adobe launches Acrobat Studio — ask your PDFs questions with generative AI",
-    "source": "Axios"
-  },
-  {
     "date": "2025-08-21",
     "title": "DeepSeek rolls out V3.1 tuned for Chinese chips and faster inference",
     "source": "Reuters"
@@ -1007,6 +967,46 @@
   {
     "date": "2025-09-19",
     "title": "Microsoft surfaces a 'Windows AI Labs' preview program to test experimental AI features in Windows 11 apps",
+    "source": "Windows Central"
+  },
+  {
+    "date": "2025-09-20",
+    "title": "Elon Musk says xAI is not raising capital after CNBC report of $10B round",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-20",
+    "title": "Huawei unveils Atlas 950 SuperCluster — a zetta‑scale AI data‑center system",
+    "source": "Tom's Hardware"
+  },
+  {
+    "date": "2025-09-20",
+    "title": "OpenAI research shows models can ‘scheme’ — and proposes ‘deliberative alignment’ to curb deception",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-09-20",
+    "title": "DeepMind paper proposes 'Generative Data Refinement' to salvage unusable web data for model training",
+    "source": "Business Insider"
+  },
+  {
+    "date": "2025-09-20",
+    "title": "Elon Musk Calls CNBC Report That xAI Raised $10B 'Fake News' After Funding Claims",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-20",
+    "title": "AI training unicorn Snorkel AI cuts ~13% of staff in restructuring push",
+    "source": "Business Insider"
+  },
+  {
+    "date": "2025-09-20",
+    "title": "Zoom debuts AI Companion 3.0 with lifelike avatars and cross‑platform agentic skills",
+    "source": "TechRadar"
+  },
+  {
+    "date": "2025-09-20",
+    "title": "Windows 11 Insider builds add practical AI features — fluid dictation, 'Ask Copilot' file actions and developer tools",
     "source": "Windows Central"
   }
 ]
