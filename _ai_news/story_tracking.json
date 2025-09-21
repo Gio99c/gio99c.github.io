@@ -1,45 +1,5 @@
 [
   {
-    "date": "2025-08-21",
-    "title": "DeepSeek rolls out V3.1 tuned for Chinese chips and faster inference",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-21",
-    "title": "Google expands Search’s AI Mode to 180 countries and adds agentic booking features",
-    "source": "The Verge"
-  },
-  {
-    "date": "2025-08-21",
-    "title": "We‑Math 2.0: A new RL‑driven benchmark and training system to boost multimodal mathematical reasoning",
-    "source": "Hugging Face Papers (paper page for We‑Math 2.0)"
-  },
-  {
-    "date": "2025-08-21",
-    "title": "Modeling human responses to multimodal AI content: new dataset (MhAIM) and T‑Lens agent for human‑aware LLM behavior",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-21",
-    "title": "FieldAI pulls in $405M to build ‘robot brains’ for industrial robots",
-    "source": "Axios"
-  },
-  {
-    "date": "2025-08-21",
-    "title": "Thoma Bravo to take Dayforce private in $12.3B deal as software investors push AI consolidation",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-21",
-    "title": "Windows 11 tests AI file & image search inside Copilot — plus guided ‘Vision’ help",
-    "source": "The Verge"
-  },
-  {
-    "date": "2025-08-21",
-    "title": "DeepSeek releases V3.1 model tuned for Chinese chips, adds hybrid inference and API pricing changes",
-    "source": "Reuters"
-  },
-  {
     "date": "2025-08-22",
     "title": "Google pushes ‘AI phone’ strategy with Pixel 10 lineup — Gemini Nano and Tensor G5 on-device",
     "source": "The Verge"
@@ -1008,5 +968,40 @@
     "date": "2025-09-20",
     "title": "Windows 11 Insider builds add practical AI features — fluid dictation, 'Ask Copilot' file actions and developer tools",
     "source": "Windows Central"
+  },
+  {
+    "date": "2025-09-21",
+    "title": "Meta ships Ray‑Ban Display smart glasses (with a Neural Band) as a consumer AR+AI product",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-21",
+    "title": "Nvidia in talks to invest $500M in UK self‑driving startup Wayve",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-09-21",
+    "title": "Delphi-2M — a generative transformer that predicts risk for 1,000+ diseases up to decades ahead",
+    "source": "The Guardian"
+  },
+  {
+    "date": "2025-09-21",
+    "title": "Atlassian to buy developer‑intelligence startup DX for about $1B to deepen AI insights for engineering teams",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-21",
+    "title": "Check Point acquires AI‑native security firm Lakera to build end‑to‑end enterprise AI protection",
+    "source": "ITPro / ChannelPro (Future plc)"
+  },
+  {
+    "date": "2025-09-21",
+    "title": "OpenAI upgrades Codex with GPT‑5‑Codex — a faster, more reliable coding partner",
+    "source": "TechCrunch"
+  },
+  {
+    "date": "2025-09-21",
+    "title": "Mark Cuban Foundation opens 2025 free AI bootcamps — hands‑on AI education for high schoolers",
+    "source": "GlobeNewswire / Mark Cuban Foundation"
   }
 ]
