@@ -1,45 +1,5 @@
 [
   {
-    "date": "2025-08-22",
-    "title": "Google pushes ‘AI phone’ strategy with Pixel 10 lineup — Gemini Nano and Tensor G5 on-device",
-    "source": "The Verge"
-  },
-  {
-    "date": "2025-08-22",
-    "title": "Nvidia tells suppliers to pause work on China‑focused H20 AI chip amid Beijing scrutiny",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-22",
-    "title": "KompeteAI: new arXiv AutoML paper proposes an accelerated multi‑agent pipeline composer that speeds evaluation ~6.9×",
-    "source": "arXiv"
-  },
-  {
-    "date": "2025-08-22",
-    "title": "Researchers found hiding ‘hidden prompts’ in arXiv papers to manipulate AI‑assisted peer review",
-    "source": "The Guardian"
-  },
-  {
-    "date": "2025-08-22",
-    "title": "Thoma Bravo to take Dayforce private in $12.3B deal — a bet on AI-driven HCM",
-    "source": "Reuters"
-  },
-  {
-    "date": "2025-08-22",
-    "title": "Nvidia joins new $203M round for AV startup Nuro as self-driving bets persist",
-    "source": "TechCrunch"
-  },
-  {
-    "date": "2025-08-22",
-    "title": "I built five working apps in minutes with GPT‑5 — no coding required",
-    "source": "Tom's Guide"
-  },
-  {
-    "date": "2025-08-22",
-    "title": "GPT‑5 for Builders — OpenAI’s official guide and cookbooks for coding with GPT‑5",
-    "source": "OpenAI Academy"
-  },
-  {
     "date": "2025-08-23",
     "title": "Apple in early talks to license Google’s Gemini to power a revamped Siri",
     "source": "Reuters"
@@ -1003,5 +963,45 @@
     "date": "2025-09-21",
     "title": "Mark Cuban Foundation opens 2025 free AI bootcamps — hands‑on AI education for high schoolers",
     "source": "GlobeNewswire / Mark Cuban Foundation"
+  },
+  {
+    "date": "2025-09-22",
+    "title": "Nvidia and Abu Dhabi’s TII open joint AI & robotics research lab — first Nvidia AI Technology Center in Middle East",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-22",
+    "title": "Mycroft emerges from stealth with agentic AI security platform and $3.5M seed",
+    "source": "SiliconANGLE"
+  },
+  {
+    "date": "2025-09-22",
+    "title": "DeepSeek’s R1 model published in Nature — paper reveals $294K training bill and peer‑reviewed details",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-22",
+    "title": "Generative Data Refinement (GDR): Google/DeepMind paper proposes using generative models to 'clean' unusable training data",
+    "source": "Business Insider (reports on arXiv preprint: arXiv:2509.08653)"
+  },
+  {
+    "date": "2025-09-22",
+    "title": "Oracle names two insiders as co‑CEOs in surprise leadership shakeup",
+    "source": "Reuters"
+  },
+  {
+    "date": "2025-09-22",
+    "title": "Axios: AI chipmaker Cerebras is nearing a $1B private round as IPO talks continue",
+    "source": "Axios (Pro Rata)"
+  },
+  {
+    "date": "2025-09-22",
+    "title": "Google folds Gemini into Chrome, bringing AI features (and agentic tasks) to mainstream browsing",
+    "source": "WIRED"
+  },
+  {
+    "date": "2025-09-22",
+    "title": "Perplexity opens its AI browser Comet to Pro users in India, expanding access to automation features",
+    "source": "The Economic Times"
   }
 ]
