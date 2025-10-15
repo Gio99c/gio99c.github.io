@@ -6,6 +6,7 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+math-formulas-test.md
 
 # Python
 __pycache__/
