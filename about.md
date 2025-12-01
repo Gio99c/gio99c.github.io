@@ -55,6 +55,10 @@ I believe in building systems that are not just technically impressive, but actu
 
 I write about what I learn while building these systems. My posts cover everything from the technical details of model architectures to the practical challenges of deploying AI at scale. I believe in sharing knowledge—both the successes and the failures—because that's how we all get better at this craft.
 
+## Community
+
+I founded the [Italian Tech Club NYC](https://italiantechclubnyc.com/) chapter to unite the Italian tech ecosystem in New York. We are an exclusive community of founders, investors, and engineers dedicated to fostering innovation and professional growth in the city that never sleeps.
+
 ## Connect
 
 I'm always interested in connecting with fellow engineers, researchers, and anyone passionate about building AI systems that make a difference. Feel free to reach out:
