@@ -13,7 +13,7 @@ permalink: /about/
   <div class="about-content">
     <h1>About Me</h1>
     
-    <p>I'm Giuseppe Concialdi, a Machine Learning Engineer who builds AI systems that work. I take cutting-edge research and turn it into production-ready solutions that solve real problems.</p>
+    <p>I'm Giuseppe Concialdi, a Senior Machine Learning Engineer who builds AI systems that work. I take cutting-edge research and turn it into production-ready solutions that solve real problems.</p>
   </div>
 </div>
 
